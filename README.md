@@ -2,6 +2,10 @@
 
 Welcome to the BiteRight repository! This repository is set up to document the Scrum process, team members, and project management for BiteRight.
 
+## BiteRight Website
+**https://tarpon-butterfly-gba3.squarespace.com/home**
+**password :1**
+
 ## Repository Structure
 
 ## Scrum Setup
