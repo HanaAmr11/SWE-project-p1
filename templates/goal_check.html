@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Check</title>
+    <link rel="stylesheet" href="../assets/css/style3.css"> 
+</head>
+<body style="background-image: url('../assets/images/goalcheck.jpeg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: -1;"></div>
+
+    <div class="goal-check-container">
+        <h2>Goal Check</h2>
+        <p>Enter your current weight and goal weight to check if you've reached your target!</p>
+
+        <div class="goal-check-form">
+            <label for="currentWeight">Current Weight (kg):</label>
+            <input type="number" id="currentWeight" placeholder="Enter current weight" required>
+            <label for="goalWeight">Goal Weight (kg):</label>
+            <input type="number" id="goalWeight" placeholder="Enter goal weight" required>
+            <button id="compareButton" class="btn-compare">Compare</button>
+        </div>
+
+      
+        <div id="resultMessage" class="result-message" style="display: none;"></div>
+    </div>
+
+    <script src="../assets/js/goal_check.js"></script> 
+</body>
+</html>
