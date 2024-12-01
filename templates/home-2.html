@@ -10,19 +10,19 @@
 <meta name="keywords" content="health, nutrition, promotion, marketing, coach, feminine, one page, landing page">
 
 <!-- FAVICON FILES -->
-<link href="../assets/images/icons/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-<link href="../assets/images/icons/apple-touch-icon-120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
-<link href="../assets/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
-<link href="../assets/images/icons/favicon.png" rel="shortcut icon">
+<link href="../static/images/icons/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+<link href="../static/images/icons/apple-touch-icon-120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
+<link href="../static/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
+<link href="../static/images/icons/favicon.png" rel="shortcut icon">
 
 <!-- CSS FILES -->
-<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="../assets/fonts/iconfonts.css">
-<link rel="stylesheet" href="../assets/css/plugins.css">
-<link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" href="../assets/css/style2.css">
-<link rel="stylesheet" href="../assets/css/responsive.css">
-<link rel="stylesheet" href="../assets/css/color.css">
+<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+<link rel="stylesheet" href="../static/fonts/iconfonts.css">
+<link rel="stylesheet" href="../static/css/plugins.css">
+<link rel="stylesheet" href="../static/css/style.css">
+<link rel="stylesheet" href="../static/css/style2.css">
+<link rel="stylesheet" href="../static/css/responsive.css">
+<link rel="stylesheet" href="../static/css/color.css">
 </head>
 <body>
 <div id="dtr-wrapper" class="clearfix">
@@ -41,7 +41,7 @@
         <div class="container">
 
             <!-- small devices logo -->
-            <div class="dtr-responsive-header-left"> <a class="dtr-logo" href="index.html"><img src="../assets/images/logo-dark.png" alt="logo"></a> </div>
+            <div class="dtr-responsive-header-left"> <a class="dtr-logo" href="index.html"><img src="../static/images/logo-dark.png" alt="logo"></a> </div>
             <!-- small devices logo ends -->
 
             <!-- menu button -->
@@ -61,10 +61,10 @@
             <div class="dtr-header-left">
 
                 <!-- logo -->
-                <a class="logo-default dtr-scroll-link" href="#home"><img src="../assets/images/logo-light.png" alt="logo"></a>
+                <a class="logo-default dtr-scroll-link" href="#home"><img src="../static/images/logo-light.png" alt="logo"></a>
 
                 <!-- logo on scroll -->
-                <a class="logo-alt dtr-scroll-link" href="#home"><img src="../assets/images/logo-light.png" alt="logo"></a>
+                <a class="logo-alt dtr-scroll-link" href="#home"><img src="../static/images/logo-light.png" alt="logo"></a>
                 <!-- logo on scroll ends -->
 
             </div>
@@ -89,12 +89,81 @@
     <!-- header ends
 ================================================== -->
 
+<!-- Sign Up Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="signupForm" action="/signup" method="post">
+                    <div class="form-group">
+                        <label for="signupEmail">Email Address</label>
+                        <input type="email" class="form-control" id="signupEmail" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupPassword">Password</label>
+                        <input type="password" class="form-control" id="signupPassword" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                </form>
+                <hr>
+                <p class="text-center">Or</p>
+                <a href="/login/google" class="btn btn-danger btn-block">
+                    <i class="fab fa-google"></i> Sign Up with Google
+                </a>
+            </div>
+            <div class="modal-footer">
+                <p>Already have an account? 
+                    <a href="#" data-toggle="modal" data-target="#signinModal" data-dismiss="modal">Sign In Here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sign In Modal -->
+<div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="signinModalLabel">Sign In</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="signinForm" action="/signin" method="post">
+                    <div class="form-group">
+                        <label for="signinEmail">Email Address</label>
+                        <input type="email" class="form-control" id="signinEmail" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signinPassword">Password</label>
+                        <input type="password" class="form-control" id="signinPassword" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                </form>
+                <hr>
+                <p class="text-center">Or</p>
+                <a href="/login/google" class="btn btn-danger btn-block">
+                    <i class="fab fa-google"></i> Sign In with Google
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
     <!-- == main content area starts == -->
     <div id="dtr-main-content">
 
         <!-- hero section starts
 ================================================== -->
-        <section id="home" class="dtr-section dtr-section-with-bg dtr-hero-section-top-padding" style="background-image: url(../assets/images/goalcheck.jpeg);"> 
+        <section id="home" class="dtr-section dtr-section-with-bg dtr-hero-section-top-padding" style="background-image: url(../static/images/goalcheck.jpeg);"> 
             <!-- overlay -->
             <div class="dtr-overlay dtr-overlay-dark"></div>
             <div class="container">
@@ -147,7 +216,7 @@
                             </div>
 
                             <!-- about image -->
-                            <div class="dtr-about-img" style="background-image: url(../assets/images/aboutus.jpg);"> </div>
+                            <div class="dtr-about-img" style="background-image: url(../static/images/aboutus.jpg);"> </div>
                         </div>
                         <!-- about ends -->
 
@@ -180,11 +249,11 @@
 
                         <!-- feature 1 starts -->
                         <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50">
-                            <div class="dtr-feature-img"><img src="../assets/images/service-icon1.png" alt="image"></div>
+                            <div class="dtr-feature-img"><img src="../static/images/service-icon1.png" alt="image"></div>
                             <div class="dtr-feature-content">
                                 <h4><span class="color-gold">01.</span> Calorie Calculation</h4>
                                 <p>This tool helps you calculate the number of calories your body needs daily to maintain or reach your desired weight.</p>
-                                <a href="./calcalc.html" class="dtr-btn btn-black w-100" role="button">Check</a>
+                                <a href="{{ url_for('calcalc') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
                             </div>
                         </div>
                         <!-- feature 1 ends -->
@@ -197,11 +266,11 @@
 
                         <!-- feature 1 starts -->
                         <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50">
-                            <div class="dtr-feature-img"><img src="../assets/images/service-icon2.png" alt="image"></div>
+                            <div class="dtr-feature-img"><img src="../static/images/service-icon2.png" alt="image"></div>
                             <div class="dtr-feature-content">
                                 <h4><span class="color-gold">02.</span> BMI Calculation</h4>
                                 <p>This tool allows you to calculate your Body Mass Index (BMI), which helps assess whether you are in a healthy weight range based on your height and weight.</p>
-                                <a href="./bmi.html" class="dtr-btn btn-black w-100" role="button">Check</a>
+                                <a href="{{ url_for('bmi') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
                             </div>
                         </div>
                         <!-- feature 1 ends -->
@@ -220,7 +289,7 @@
 
                         <!-- feature 3 starts -->
                         <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50">
-                            <div class="dtr-feature-img"><img src="../assets/images/service-icon3.png" alt="image"></div>
+                            <div class="dtr-feature-img"><img src="../static/images/service-icon3.png" alt="image"></div>
                             <div class="dtr-feature-content">
                                 <h4><span class="color-gold">03.</span> personalized Plans</h4>
                                 <p>There are many variations of passages of lorem Ipsum available but the majority have suffered alteration in some form, by injected humour or randomised words.</p>
@@ -236,11 +305,11 @@
 
                         <!-- feature 4 starts -->
                         <div id="f4" class="dtr-feature dtr-feature-left bg-grey dtr-p-50">
-                            <div class="dtr-feature-img"><img src="../assets/images/service-icon4.png" alt="image"></div>
+                            <div class="dtr-feature-img"><img src="../static/images/service-icon4.png" alt="image"></div>
                             <div class="dtr-feature-content">
                                 <h4><span class="color-gold">04.</span> Goal Check</h4>
                                 <p>Checks if user's goal weight is met by comparing the user's current weight and goal weight.</p>
-                                <a href="./goal_check.html" class="dtr-btn btn-black w-100" role="button">Check</a>
+                                <a href="{{ url_for('goal_check') }}"class="dtr-btn btn-black w-100" role="button">Check</a>
                             </div>
                         </div>
                         <!-- feature 4 ends -->
@@ -258,7 +327,7 @@
 
 <!-- ----------------------------------------------- -->
 <!-- Feedback Section -->
-<section id="feedback" class="dtr-section dtr-py-100 bg-light" style="background-image: url(../assets/images/footer-bg.jpg); margin-bottom: 50px;">
+<section id="feedback" class="dtr-section dtr-py-100 bg-light" style="background-image: url(../static/images/footer-bg.jpg); margin-bottom: 50px;">
     <div class="container">
         <!-- Heading -->
         <div class="dtr-section-heading text-center">
@@ -311,7 +380,7 @@
        
         <!-- testimonial section starts
 ================================================== -->
-<section id="reviews" class="dtr-section overflow-hidden dtr-section-with-bg dtr-py-100 color-white" style="background-image: url(../assets/images/footer-bg.jpg);">
+<section id="reviews" class="dtr-section overflow-hidden dtr-section-with-bg dtr-py-100 color-white" style="background-image: url(../static/images/footer-bg.jpg);">
     <!-- overlay -->
     <div class="dtr-overlay dtr-overlay-dark"></div>
     <div class="container">
@@ -333,7 +402,7 @@
                         <div class="dtr-testimonial-content clearfix">Health is the greatest gift, contentment the greatest wealth.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -347,7 +416,7 @@
                         <div class="dtr-testimonial-content clearfix">Take care of your body. It's the only place you have to live.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -361,7 +430,7 @@
                         <div class="dtr-testimonial-content clearfix">A fit body, a calm mind, and a house full of love â€“ these things cannot be bought.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -375,7 +444,7 @@
                         <div class="dtr-testimonial-content clearfix">The groundwork for all happiness is good health.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -389,7 +458,7 @@
                         <div class="dtr-testimonial-content clearfix">Your body hears everything your mind says â€“ keep it positive.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -403,7 +472,7 @@
                         <div class="dtr-testimonial-content clearfix">Healthy living is a lifelong journey, not a short-term goal.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -417,7 +486,7 @@
                         <div class="dtr-testimonial-content clearfix">An ounce of prevention is worth a pound of cure.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -431,7 +500,7 @@
                         <div class="dtr-testimonial-content clearfix">Wellness encompasses a healthy body, a sound mind, and a tranquil spirit.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -445,7 +514,7 @@
                         <div class="dtr-testimonial-content clearfix">Eat well, move daily, hydrate often, sleep lots, love your body.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -459,7 +528,7 @@
                         <div class="dtr-testimonial-content clearfix">The best way to predict your future is to create it.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -473,7 +542,7 @@
                         <div class="dtr-testimonial-content clearfix">You donâ€™t have to be extreme, just consistent.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -487,7 +556,7 @@
                         <div class="dtr-testimonial-content clearfix">Small steps every day add up to big results.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -501,7 +570,7 @@
                         <div class="dtr-testimonial-content clearfix">Health is not about the weight you lose but the life you gain.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -515,7 +584,7 @@
                         <div class="dtr-testimonial-content clearfix">Fall in love with taking care of yourself â€“ mind, body, and spirit.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -529,7 +598,7 @@
                         <div class="dtr-testimonial-content clearfix">Discipline is choosing between what you want now and what you want most.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -543,7 +612,7 @@
                         <div class="dtr-testimonial-content clearfix">Make time for your health or youâ€™ll be forced to make time for your illness.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -557,7 +626,7 @@
                         <div class="dtr-testimonial-content clearfix">Let food be thy medicine and medicine be thy food.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -571,7 +640,7 @@
                         <div class="dtr-testimonial-content clearfix">A healthy outside starts from the inside.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -585,7 +654,7 @@
                         <div class="dtr-testimonial-content clearfix">Strive for progress, not perfection.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -599,7 +668,7 @@
                         <div class="dtr-testimonial-content clearfix">What you eat today will affect your health tomorrow.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -613,7 +682,7 @@
                         <div class="dtr-testimonial-content clearfix">Self-care is giving the world the best of you, not what's left of you.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -627,7 +696,7 @@
                         <div class="dtr-testimonial-content clearfix">Be stronger than your strongest excuse.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -641,7 +710,7 @@
                         <div class="dtr-testimonial-content clearfix">Invest in your health; it pays the best dividends.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -655,7 +724,7 @@
                         <div class="dtr-testimonial-content clearfix">Wake up with determination, go to bed with satisfaction.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg" alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg" alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -669,7 +738,7 @@
                         <div class="dtr-testimonial-content clearfix">Take care of yourself as if your life depends on it â€“ because it does.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -683,7 +752,7 @@
                         <div class="dtr-testimonial-content clearfix">The first wealth is health.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg" alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg" alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -697,7 +766,7 @@
                         <div class="dtr-testimonial-content clearfix">Healthy habits, happy life.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg" alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg" alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -711,7 +780,7 @@
                         <div class="dtr-testimonial-content clearfix">Donâ€™t focus on losing weight. Focus on being healthy.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg" alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg" alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -725,7 +794,7 @@
                         <div class="dtr-testimonial-content clearfix">Your health is an investment, not an expense.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg" alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg" alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -739,7 +808,7 @@
                         <div class="dtr-testimonial-content clearfix">Nourish your body; itâ€™s the temple of your soul.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg" alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg" alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -752,7 +821,7 @@
                         </div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -764,7 +833,7 @@
                         <div class="dtr-testimonial-content clearfix">A little progress each day adds up to big results.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -776,7 +845,7 @@
                         <div class="dtr-testimonial-content clearfix">Sweat is just fat crying â€“ keep going!</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -788,7 +857,7 @@
                         <div class="dtr-testimonial-content clearfix">Move more, stress less.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -800,7 +869,7 @@
                         <div class="dtr-testimonial-content clearfix">You donâ€™t have to be perfect, just consistent.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -812,7 +881,7 @@
                         <div class="dtr-testimonial-content clearfix">The secret of change is to focus all your energy not on fighting the old, but on building the new.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -824,7 +893,7 @@
                         <div class="dtr-testimonial-content clearfix">Eat clean, stay fit, and live well.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -836,7 +905,7 @@
                         <div class="dtr-testimonial-content clearfix">Happiness begins with good health.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -848,7 +917,7 @@
                         <div class="dtr-testimonial-content clearfix">Every step is a step closer to your goal.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -860,7 +929,7 @@
                         <div class="dtr-testimonial-content clearfix">Eat to fuel your body, not to feed your emotions.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -873,7 +942,7 @@
                         <div class="dtr-testimonial-content clearfix">When you feel like quitting, remember why you started.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -885,7 +954,7 @@
                         <div class="dtr-testimonial-content clearfix">Healthy living is the balance of mind, body, and spirit.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -897,7 +966,7 @@
                         <div class="dtr-testimonial-content clearfix">Commit to be fit.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -909,7 +978,7 @@
                         <div class="dtr-testimonial-content clearfix">Good things come to those who sweat.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -921,7 +990,7 @@
                         <div class="dtr-testimonial-content clearfix">Your future self will thank you for taking care of your health today.</div>
                         <!-- client info -->
                         <div class="dtr-client-info clearfix">
-                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\rightbite.jpg"alt="image"></div>
+                            <div class="dtr-testimonial-user"><img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\rightbite.jpg"alt="image"></div>
                             <div class="dtr-testimonial-user-info">
                                 <h5 class="dtr-client-name">Bite Right</h5>
                                 <span class="dtr-client-job color-grey">Stay healthy, positive, and productive with us </span>
@@ -960,7 +1029,7 @@
                 <!-- pricing 1 starts -->
                 <div class="dtr-pricing">
                     <!-- pricing image -->
-                    <div class="dtr-pricing-img" style="background-image: url(../assets/images/footer-bg.jpg);"> </div>
+                    <div class="dtr-pricing-img" style="background-image: url(../static/images/footer-bg.jpg);"> </div>
                     <!-- pricing content -->
                     <div class="dtr-pricing-content">
                         <h4>Dr. Youssef</h4>
@@ -980,7 +1049,7 @@
                 <!-- pricing 2 starts -->
                 <div class="dtr-pricing">
                     <!-- pricing image -->
-                    <div class="dtr-pricing-img" style="background-image: url(../assets/images/footer-bg.jpg);"> </div>
+                    <div class="dtr-pricing-img" style="background-image: url(../static/images/footer-bg.jpg);"> </div>
                     <!-- pricing content -->
                     <div class="dtr-pricing-content">
                         <h4>Dr. Hana</h4>
@@ -1000,7 +1069,7 @@
                 <!-- pricing 3 starts -->
                 <div class="dtr-pricing">
                     <!-- pricing image -->
-                    <div class="dtr-pricing-img" style="background-image: url(../assets/images/footer-bg.jpg);"> </div>
+                    <div class="dtr-pricing-img" style="background-image: url(../static/images/footer-bg.jpg);"> </div>
                     <!-- pricing content -->
                     <div class="dtr-pricing-content">
                         <h4>Trainer Nada 3adalat 💪🏻</h4>
@@ -1020,7 +1089,7 @@
                 <!-- pricing 4 starts -->
                 <div class="dtr-pricing">
                     <!-- pricing image -->
-                    <div class="dtr-pricing-img" style="background-image: url(../assets/images/footer-bg.jpg);"> </div>
+                    <div class="dtr-pricing-img" style="background-image: url(../static/images/footer-bg.jpg);"> </div>
                     <!-- pricing content -->
                     <div class="dtr-pricing-content">
                         <h4>Trainer Farah</h4>
@@ -1043,7 +1112,7 @@
 <!---================================================== -->
 <!-- subscribe section starts
 ================================================== -->
-<section class="dtr-section dtr-py-100 bg-gold color-white" style="background-image: url(../assets/images/footer-bg.jpg); margin-top: 50px;">
+<section class="dtr-section dtr-py-100 bg-gold color-white" style="background-image: url(../static/images/footer-bg.jpg); margin-top: 50px;">
  <div class="container">
 
 <!--== row 1 starts ==-->
@@ -1131,7 +1200,7 @@
 
                 <!-- post meta -->
                 <div class="dtr-meta">
-                    <div class="dtr-meta-left"> <img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\snack.png" alt="image"> </div>
+                    <div class="dtr-meta-left"> <img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\snack.png" alt="image"> </div>
                     <div class="dtr-meta-right">
                         <h4> Snack Smart </h4>
                     </div>
@@ -1147,7 +1216,7 @@
 
                 <!-- post meta -->
                 <div class="dtr-meta">
-                    <div class="dtr-meta-left"> <img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\midful-eationg.jpeg" alt="image"> </div>
+                    <div class="dtr-meta-left"> <img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\midful-eationg.jpeg" alt="image"> </div>
                     <div class="dtr-meta-right">
                         <h4>Mindful Eating</h4>
                     </div>
@@ -1163,7 +1232,7 @@
 
                 <!-- post meta -->
                 <div class="dtr-meta">
-                    <div class="dtr-meta-left"> <img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\balanced-plates.jpeg" alt="image"> </div>
+                    <div class="dtr-meta-left"> <img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\balanced-plates.jpeg" alt="image"> </div>
                     <div class="dtr-meta-right">
                         <h4> Balanced Plates </h4>
                     </div>
@@ -1179,7 +1248,7 @@
 
                 <!-- post meta -->
                 <div class="dtr-meta">
-                    <div class="dtr-meta-left"> <img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\assets\images\fats.jpeg" alt="image"> </div>
+                    <div class="dtr-meta-left"> <img src="C:\Users\Hana Amr Fawzy\Desktop\ProjectSWE\static\images\fats.jpeg" alt="image"> </div>
                     <div class="dtr-meta-right">
                         <h4> Fats Are Your Friend </h4>
                     </div>
@@ -1202,7 +1271,7 @@
 
     <!-- footer section starts
 ================================================== -->
-    <footer id="dtr-footer" class="dtr-section-with-bg" style="background-image: url(../assets/images/footer-bg.jpg);">
+    <footer id="dtr-footer" class="dtr-section-with-bg" style="background-image: url(../static/images/footer-bg.jpg);">
 
         <!--== footer main starts ==-->
         <div class="dtr-footer-main">
@@ -1215,7 +1284,7 @@
                     <div class="dtr-pb-30 dtr-pr-50 dtr-sm-pr-0">
 
                         <!-- logo -->
-                        <img src="../assets/images/logo-light.png" alt="logo" class="dtr-mb-35">
+                        <img src="../static/images/logo-light.png" alt="logo" class="dtr-mb-35">
                         <!-- text -->
                         
                         <!-- contact info -->
@@ -1334,14 +1403,66 @@
 <!-- #dtr-wrapper ends -->
 
 <!-- JS FILES -->
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
-<script src="../assets/js/plugins.js"></script>
-<script src="../assets/js/slick.min.js"></script>
-<script src="../assets/js/custom.js"></script>
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/plugins.js"></script>
+<script src="../static/js/slick.min.js"></script>
+<script src="../static/js/custom.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script src="../assets/js/feedback.js"></script>
-<script src="../assets/js/contact.js"></script>
-<script src="../assets/js/sub.js"></script>
+<script src="../static/js/feedback.js"></script>
+<script src="../static/js/contact.js"></script>
+<script src="../static/js/sub.js"></script>
+<script>
+    $(document).ready(function () {
+        // Handle Sign-Up Form Submission
+        $('#signupForm').submit(function (event) {
+            event.preventDefault(); // Prevent default form submission behavior
+            const formData = $(this).serialize(); // Serialize the form data
+    
+            $.ajax({
+                type: "POST",
+                url: "/signup", // Endpoint for sign-up
+                data: formData,
+                success: function (response) {
+                    if (response.success) {
+                        alert('Signup successful! You can now log in.');
+                        $('#signupForm')[0].reset(); // Reset the form
+                        $('#signupModal').modal('hide'); // Close the modal
+                    } else {
+                        alert('Signup failed: ' + response.message);
+                    }
+                },
+                error: function () {
+                    alert('An error occurred during sign-up. Please try again.');
+                }
+            });
+        });
+    
+        // Handle Sign-In Form Submission
+        $('#signinForm').submit(function (event) {
+            event.preventDefault();
+            const formData = $(this).serialize(); // Serialize the form data
+    
+            $.ajax({
+                type: "POST",
+                url: "/signin", // Endpoint for sign-in
+                data: formData,
+                success: function (response) {
+                    if (response.success) {
+                        alert('Signin successful! Redirecting...');
+                        $('#signinForm')[0].reset(); // Reset the form
+                        $('#signinModal').modal('hide'); // Close the modal
+                        location.reload(); // Reload the page to update UI
+                    } else {
+                        alert('Signin failed: ' + response.message);
+                    }
+                },
+                error: function () {
+                    alert('An error occurred during sign-in. Please try again.');
+                }
+            });
+        });
+    });
+</script> 
 </body>
 </html>
