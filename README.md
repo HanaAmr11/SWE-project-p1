@@ -1,7 +1,7 @@
 How to Use
 1. Clone the repository to your local machine
-git clone https://github.com/your-username/your-project-name.git
-cd your-project-name
+git clone [https://github.com/your-username/your-project-name.git
+cd your-project-name](https://github.com/HanaAmr11/SWE-project-p1.git)
 
 3. Create a virtual environment to isolate the project dependencies.
 python -m venv venv
