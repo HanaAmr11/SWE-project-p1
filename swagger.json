@@ -1,0 +1,189 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0",
+      "title": "Flask User Authentication API",
+      "description": "An API for user authentication, password management, and Google login integration"
+    },
+    "host": "localhost:5000",
+    "basePath": "/",
+    "schemes": ["http"],
+    "paths": {
+      "/signup": {
+        "post": {
+          "summary": "Sign up a new user",
+          "description": "Creates a new user with the provided email and password.",
+          "consumes": ["application/x-www-form-urlencoded"],
+          "parameters": [
+            {
+              "name": "email",
+              "in": "formData",
+              "required": true,
+              "type": "string",
+              "description": "The email address of the user."
+            },
+            {
+              "name": "password",
+              "in": "formData",
+              "required": true,
+              "type": "string",
+              "description": "The password of the user."
+            }
+          ],
+          "responses": {
+            "201": {
+              "description": "User successfully created and logged in",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "example": "User created successfully"
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "User already exists"
+            }
+          }
+        }
+      },
+      "/signin": {
+        "post": {
+          "summary": "Sign in a user",
+          "description": "Logs in an existing user with the provided email and password.",
+          "consumes": ["application/x-www-form-urlencoded"],
+          "parameters": [
+            {
+              "name": "email",
+              "in": "formData",
+              "required": true,
+              "type": "string",
+              "description": "The email address of the user."
+            },
+            {
+              "name": "password",
+              "in": "formData",
+              "required": true,
+              "type": "string",
+              "description": "The password of the user."
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "User successfully logged in",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "example": "User signed in successfully"
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Invalid email or password"
+            }
+          }
+        }
+      },
+      "/forgot-password": {
+        "post": {
+          "summary": "Request a password reset",
+          "description": "Sends a password reset link to the user's email if the email is registered.",
+          "consumes": ["application/x-www-form-urlencoded"],
+          "parameters": [
+            {
+              "name": "email",
+              "in": "formData",
+              "required": true,
+              "type": "string",
+              "description": "The email address of the user requesting the password reset."
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Password reset email sent"
+            },
+            "404": {
+              "description": "Email not found in our records"
+            }
+          }
+        }
+      },
+      "/reset-password/{token}": {
+        "post": {
+          "summary": "Reset a user's password",
+          "description": "Allows the user to reset their password using the provided token.",
+          "consumes": ["application/x-www-form-urlencoded"],
+          "parameters": [
+            {
+              "name": "token",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The token for password reset"
+            },
+            {
+              "name": "password",
+              "in": "formData",
+              "required": true,
+              "type": "string",
+              "description": "The new password for the user."
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Password successfully updated"
+            },
+            "400": {
+              "description": "Invalid or expired token"
+            }
+          }
+        }
+      },
+      "/login/google": {
+        "get": {
+          "summary": "Start Google login",
+          "description": "Redirects the user to the Google OAuth page for authentication.",
+          "responses": {
+            "302": {
+              "description": "Redirects to Google OAuth page"
+            }
+          }
+        }
+      },
+      "/login/google/callback": {
+        "get": {
+          "summary": "Handle Google login callback",
+          "description": "Handles the callback from Google OAuth and logs the user in.",
+          "responses": {
+            "302": {
+              "description": "Redirects to the home page after successful authentication"
+            },
+            "400": {
+              "description": "Authentication failed"
+            }
+          }
+        }
+      }
+    },
+    "definitions": {
+      "User": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "example": "user@example.com"
+          },
+          "password": {
+            "type": "string",
+            "example": "password123"
+          }
+        }
+      }
+    }
+  }
+  
