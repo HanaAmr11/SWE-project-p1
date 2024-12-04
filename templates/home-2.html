@@ -1428,20 +1428,19 @@
 <script src="../static/js/sub.js"></script>
 <script>
     $(document).ready(function () {
-        // Handle Sign-Up Form Submission
         $('#signupForm').submit(function (event) {
-            event.preventDefault(); // Prevent default form submission behavior
-            const formData = $(this).serialize(); // Serialize the form data
+            event.preventDefault(); 
+            const formData = $(this).serialize(); 
     
             $.ajax({
                 type: "POST",
-                url: "/signup", // Endpoint for sign-up
+                url: "/signup",
                 data: formData,
                 success: function (response) {
                     if (response.success) {
                         alert('Signup successful! You can now log in.');
-                        $('#signupForm')[0].reset(); // Reset the form
-                        $('#signupModal').modal('hide'); // Close the modal
+                        $('#signupForm')[0].reset(); 
+                        $('#signupModal').modal('hide'); 
                     } else {
                         alert('Signup failed: ' + response.message);
                     }
@@ -1451,22 +1450,21 @@
                 }
             });
         });
-    
-        // Handle Sign-In Form Submission
+
         $('#signinForm').submit(function (event) {
             event.preventDefault();
-            const formData = $(this).serialize(); // Serialize the form data
+            const formData = $(this).serialize(); 
     
             $.ajax({
                 type: "POST",
-                url: "/signin", // Endpoint for sign-in
+                url: "/signin", 
                 data: formData,
                 success: function (response) {
                     if (response.success) {
                         alert('Signin successful! Redirecting...');
-                        $('#signinForm')[0].reset(); // Reset the form
-                        $('#signinModal').modal('hide'); // Close the modal
-                        location.reload(); // Reload the page to update UI
+                        $('#signinForm')[0].reset(); 
+                        $('#signinModal').modal('hide');
+                        location.reload(); 
                     } else {
                         alert('Signin failed: ' + response.message);
                     }
