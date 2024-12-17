@@ -1,4 +1,4 @@
-/* General Page Styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -25,20 +25,20 @@ li a:hover {
     background: #555;
 }
 
-/* Average Rating Section - Centered */
+
 #averageRatingContainer {
     display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center;     /* Vertically center */
-    height: 100vh;           /* Take full viewport height */
-    margin: 0;               /* Remove default margins */
-    font-size: 2em;          /* Larger font size */
-    font-weight: bold;       /* Make it bold */
-    color: #333;             /* Dark gray color */
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;               
+    font-size: 2em;         
+    font-weight: bold;       
+    color: #333;             
     text-align: center;
 }
 
-/* Popup Box Styling */
+
 .popup {
     display: none;
     position: fixed;
