@@ -1,0 +1,23 @@
+#new-benefit-btn {
+    background-color: #e2a03f; 
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#new-benefit-btn:hover {
+    background-color: #9f6718; /* Darker shade for hover effect */
+}
+
+#benefit-display {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for the text */
+    color: #333; /* Dark grey text */
+    border-left: 5px solid #cc8e35; /* Orange border to the left */
+    font-size: 16px;
+}

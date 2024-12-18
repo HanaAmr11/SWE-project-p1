@@ -9,6 +9,8 @@ from itsdangerous import SignatureExpired, BadTimeSignature
 from itsdangerous import URLSafeTimedSerializer as Serializer
 from dotenv import load_dotenv
 import os
+import random
+import pandas as pd
 
 load_dotenv()
 app = Flask(__name__)
@@ -191,6 +193,18 @@ def bmi():
 def goal_check():
     return render_template("goal_check.html")
 
+
+benefits_df = pd.read_csv('C:/Users/nodi3/Downloads/SWE-project-p1/fruit_vegetable_benefits.csv')
+
+@app.route('/get-random-benefit')
+def get_random_benefit():
+    if not benefits_df.empty:
+        random_idx = random.randint(0, len(benefits_df) - 1)
+        benefit = benefits_df.iloc[random_idx].to_dict()
+        print(benefit)  # Add this to see what the output looks like
+        return jsonify(benefit)
+    else:
+        return jsonify({"error": "No data available"}), 404
     
 if __name__ == "__main__":
     with app.app_context():
