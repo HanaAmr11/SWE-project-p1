@@ -233,12 +233,22 @@
 
         <!-- benefits section starts
 ================================================== -->
-<section class="dtr-section">
+<!-- <section class="dtr-section">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
                 <button id="new-benefit-btn">Show New Benefit</button>
                 <div id="benefit-display">Click the button to see a benefit!</div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<section class="dtr-section" id="benefits-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <!-- The benefit will be shown here after fetched from the server automatically -->
+                <div id="benefit-display">Today's Benefit Will Show Here</div>
             </div>
         </div>
     </div>
@@ -1446,6 +1456,7 @@
 <script src="../static/js/feedback.js"></script>
 <script src="../static/js/contact.js"></script>
 <script src="../static/js/sub.js"></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
     $(document).ready(function () {
         $('#signupForm').submit(function (event) {
@@ -1496,7 +1507,7 @@
         });
     });
 </script> 
-<script>
+<!-- <script>
     document.getElementById('new-benefit-btn').addEventListener('click', function() {
         fetch('/get-random-benefit')
             .then(response => response.json())
@@ -1513,16 +1524,16 @@
                 document.getElementById('benefit-display').innerText = 'Error loading benefit.';
             });
     });
-    </script>
-<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    </script> -->
 <script>
-  window.OneSignalDeferred = window.OneSignalDeferred || [];
-  OneSignalDeferred.push(async function(OneSignal) {
-    await OneSignal.init({
-      appId: "8a9bbaeb-d31b-4195-9a22-1e615ae7baf0",
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "8a9bbaeb-d31b-4195-9a22-1e615ae7baf0",
+      });
+      OneSignal.showNativePrompt(); // This ensures users are prompted to subscribe on page load
     });
-  });
-</script>
+  </script>
     
 </body>
 </html>

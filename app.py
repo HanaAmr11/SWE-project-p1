@@ -11,6 +11,9 @@ from dotenv import load_dotenv
 import os
 import random
 import pandas as pd
+from apscheduler.schedulers.background import BackgroundScheduler
+import requests
+import base64
 
 load_dotenv()
 app = Flask(__name__)
@@ -196,17 +199,46 @@ def goal_check():
 
 benefits_df = pd.read_csv('C:/Users/nodi3/Downloads/SWE-project-p1/fruit_vegetable_benefits.csv')
 
-@app.route('/get-random-benefit')
-def get_random_benefit():
+# @app.route('/get-random-benefit')
+# def get_random_benefit():
+#     if not benefits_df.empty:
+#         random_idx = random.randint(0, len(benefits_df)-1)
+#         benefit = benefits_df.iloc[random_idx].to_dict()
+#         print(benefit)
+#         return jsonify(benefit)
+#     else:
+#         return jsonify({"error": "No data available"}), 404
+
+scheduler = BackgroundScheduler()
+scheduler.start()
+def send_daily_benefit():
     if not benefits_df.empty:
-        random_idx = random.randint(0, len(benefits_df) - 1)
+        random_idx = random.randint(0, len(benefits_df)-1)
         benefit = benefits_df.iloc[random_idx].to_dict()
-        print(benefit)  # Add this to see what the output looks like
-        return jsonify(benefit)
-    else:
-        return jsonify({"error": "No data available"}), 404
+        notification_content = f"{benefit['Name']} ({benefit['Type']}): {benefit['Benefit']}"
+        send_push_notification(notification_content)
+
+
+api_key = 'os_v2_app_rkn3v26tdnazlgrcdzqvvz526dkvcxxsoncus5u7cvwijwiqc25pslm7qfc4cvrslpkjq74ttktlb2kknzg4rq5uuz6d5ov4xfypavi'
+encoded_api_key = base64.b64encode(api_key.encode()).decode('utf-8')
+
+def send_push_notification(message):
+    headers = {
+        "Content-Type": "application/json; charset=utf-8",
+        "Authorization": f"Basic {encoded_api_key}"
+    }
+    payload = {
+        "app_id": "8a9bbaeb-d31b-4195-9a22-1e615ae7baf0",
+        "included_segments": ["All"],
+        "contents": {"en": message}
+    }
+    response = requests.post("https://onesignal.com/api/v1/notifications", headers=headers, json=payload)
+    print(response.json())
+
+scheduler.add_job(func=send_daily_benefit, trigger="interval", seconds=5)
+
     
 if __name__ == "__main__":
     with app.app_context():
         db.create_all() 
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
