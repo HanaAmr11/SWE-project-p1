@@ -84,26 +84,24 @@ p {
     background-color: #005f99;
 }
 
-/* Weekly Progress */
-.weekly-progress {
-    margin: 30px auto;
-}
-
-.weekly-progress h2 {
-    color: #007acc;
-}
-
-.bar-chart {
+/* Check Marks Section */
+.check-marks-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 5px;
+    margin: 20px 0;
+    flex-wrap: wrap; /* Wrap check marks into rows */
 }
 
-.bar {
-    width: 30px;
-    height: 100px;
-    background: #00bfff;
-    border-radius: 5px;
-    transition: height 0.5s ease-in-out;
+.check-mark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007acc;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.check-mark.filled {
+    background-color: #007acc;
 }

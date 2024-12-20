@@ -82,6 +82,7 @@
                     <li> <a class="nav-link" href="#plans">Plans</a> </li>
                     <li> <a class="nav-link" href="#blog">T&T</a> </li>
                     <li> <a class="nav-link" href="#dtr-footer">Contact</a></li>
+                    <li> <a class="nav-link" href="ht.html" target="_blank">Hydration Tracker</a></li>
                     <li> <a class="nav-link" href="rateus.html" target="_blank">Rate Us</a></li>
                 </ul>
             </div>
@@ -1525,6 +1526,21 @@
             });
     });
     </script> -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Start the alert reminder
+            const reminderInterval = setInterval(function () {
+                const userConfirmed = confirm("Remember to take care of yourself! Drink water or take a healthy step. Would you like to stop these reminders?");
+                
+                // If the user confirms, stop the interval
+                if (userConfirmed) {
+                    clearInterval(reminderInterval);
+                    alert("Great! Stay healthy and hydrated!");
+                }
+            }, 7000); // Reminder every 7 seconds
+        });
+    </script>
+    
 <script>
     window.OneSignal = window.OneSignal || [];
     OneSignal.push(function() {

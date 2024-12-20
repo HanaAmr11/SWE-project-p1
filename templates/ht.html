@@ -19,21 +19,20 @@
         <div class="bottle-container">
             <div class="bottle">
                 <div class="water" id="waterLevel"></div>
-                <div class="progress-text" id="progressText">0.0L / 2.0L</div>
+                <div class="progress-text" id="progressText">0.0L / 3.0L</div>
             </div>
         </div>
 
         <!-- Buttons for Logging Water -->
         <div class="button-container">
             <button onclick="addWater(0.25)">+250ml</button>
-            <button onclick="addWater(0.5)">+500ml</button>
             <button onclick="addCustomWater()">Custom</button>
         </div>
 
-        <!-- Weekly Progress Section -->
-        <section class="weekly-progress">
-            <h2>Weekly Progress</h2>
-            <div class="bar-chart" id="barChart"></div>
+        <!-- Check Marks Section -->
+        <section class="check-marks">
+            <h2>Daily Check Marks</h2>
+            <div id="checkMarksContainer" class="check-marks-container"></div>
         </section>
     </main>
 

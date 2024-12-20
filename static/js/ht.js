@@ -1,30 +1,63 @@
 let currentWater = 0; // Current water intake in liters
-const goal = 2; // Daily goal in liters
-
+const goal = 3; // Daily goal in liters
+const checkMarksTotal = 12; // Total number of check marks
+const checkMarksContainer = document.getElementById("checkMarksContainer");
 const waterLevel = document.getElementById("waterLevel");
 const progressText = document.getElementById("progressText");
+let reminderInterval; // To store the interval ID for hydration reminders
 
-// Bar chart for weekly progress
-const weeklyProgress = [1.5, 2, 1.8, 1.2, 2, 2.5, 1.9];
-const barChart = document.getElementById("barChart");
+// Initialize check marks
+function initializeCheckMarks() {
+    checkMarksContainer.innerHTML = "";
+    for (let i = 0; i < checkMarksTotal; i++) {
+        const mark = document.createElement("span");
+        mark.className = "check-mark";
+        checkMarksContainer.appendChild(mark);
+    }
+}
 
-// Initialize weekly progress bar chart
-function initializeBarChart() {
-    barChart.innerHTML = "";
-    weeklyProgress.forEach((value) => {
-        const bar = document.createElement("div");
-        bar.className = "bar";
-        bar.style.height = `${(value / goal) * 100}%`;
-        barChart.appendChild(bar);
-    });
+// Fill only one additional check mark per button press
+function updateCheckMarks() {
+    const marks = document.querySelectorAll(".check-mark");
+    for (let mark of marks) {
+        if (!mark.classList.contains("filled")) {
+            mark.classList.add("filled");
+            break; // Fill only one mark
+        }
+    }
+}
+
+// Start alerts to remind the user to drink water
+function startWaterReminder() {
+    reminderInterval = setInterval(() => {
+        if (currentWater < goal) {
+            alert("Go and drink water!");
+        } else {
+            stopWaterReminder(); // Stop reminders once the goal is reached
+        }
+    }, 7000); // Every 7 seconds
+}
+
+// Stop reminders when the goal is reached
+function stopWaterReminder() {
+    clearInterval(reminderInterval);
 }
 
 // Add water to the bottle
 function addWater(amount) {
-    currentWater += amount;
-    if (currentWater > goal) currentWater = goal;
+    if (currentWater < goal) {
+        currentWater += amount;
+        if (currentWater > goal) currentWater = goal;
 
-    updateWaterLevel();
+        updateWaterLevel();
+        updateCheckMarks();
+
+        // If the goal is reached, stop reminders and show a congratulatory alert
+        if (currentWater === goal) {
+            stopWaterReminder();
+            alert("🎉 Congratulations! You've reached your hydration goal!");
+        }
+    }
 }
 
 // Add custom water amount
@@ -42,12 +75,9 @@ function updateWaterLevel() {
     const percentage = (currentWater / goal) * 100;
     waterLevel.style.height = `${percentage}%`;
     progressText.textContent = `${currentWater.toFixed(1)}L / ${goal}L`;
-
-    if (currentWater === goal) {
-        alert("🎉 Congratulations! You reached your hydration goal!");
-    }
 }
 
 // Initialize
-initializeBarChart();
+initializeCheckMarks();
 updateWaterLevel();
+startWaterReminder();
