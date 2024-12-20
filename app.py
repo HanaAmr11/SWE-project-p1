@@ -196,6 +196,18 @@ def bmi():
 def goal_check():
     return render_template("goal_check.html")
 
+@app.route("/ht")
+def goal_check():
+    return render_template("ht.html")
+
+@app.route("/blogs")
+def goal_check():
+    return render_template("blogs.html")
+
+@app.route("/rateus")
+def goal_check():
+    return render_template("rateus.html")
+
 
 benefits_df = pd.read_csv('C:/Users/nodi3/Downloads/SWE-project-p1/fruit_vegetable_benefits.csv')
 
