@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Blogs</title>
+    <link rel="stylesheet" href="../static/css/blogs.css">
+</head>
+<body>
+    <header>
+        <h1>Nutrition Blogs</h1>
+    </header>
+    <section class="blogs">
+        <div class="blog-card" onclick="showBlog(1)">
+            <h2>Blog 1: The Importance of Balanced Diet</h2>
+            <p>An overview of why a balanced diet is crucial for maintaining health and well-being...</p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card" onclick="showBlog(2)">
+            <h2>Blog 2: Understanding Macronutrients</h2>
+            <p>Breaking down the roles of proteins, fats, and carbohydrates in your diet...</p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card" onclick="showBlog(3)">
+            <h2>Blog 3: Hydration and Health</h2>
+            <p>Discover why staying hydrated is a cornerstone of good nutrition...</p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card" onclick="showBlog(4)">
+            <h2>Blog 4: Meal Prep Tips</h2>
+            <p>Efficient meal prepping ideas for busy lifestyles...</p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card" onclick="showBlog(5)">
+            <h2>Blog 5: Superfoods Explained</h2>
+            <p>Learn about nutrient-dense superfoods and how to incorporate them...</p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card" onclick="showBlog(6)">
+            <h2>Blog 6: Nutrition for Athletes</h2>
+            <p>Explore the best nutrition practices for enhancing athletic performance...</p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card" onclick="showBlog(7)">
+            <h2>Blog 7: Managing Food Allergies</h2>
+            <p>How to navigate a balanced diet while managing allergies...</p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card" onclick="showBlog(8)">
+            <h2>Blog 8: Gut Health and Nutrition</h2>
+            <p>Understanding the connection between gut health and overall nutrition...</p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card" onclick="showBlog(9)">
+            <h2>Blog 9: Nutrition Myths Debunked</h2>
+            <p>Sorting facts from fiction in the world of nutrition advice...</p>
+            <button>Read More</button>
+        </div>
+        <div class="blog-card" onclick="showBlog(10)">
+            <h2>Blog 10: The Role of Micronutrients</h2>
+            <p>Dive into the importance of vitamins and minerals for optimal health...</p>
+            <button>Read More</button>
+        </div>
+    </section>
+    <div id="blog-details" class="hidden">
+        <button onclick="hideBlog()">Close</button>
+        <div id="blog-content"></div>
+    </div>
+    <script>
+        const blogs = [
+            "Detailed insights about why a balanced diet is essential, focusing on major food groups and portion control.",
+            "Understand how proteins, fats, and carbs fuel your body, and tips to balance them in your meals.",
+            "The science behind hydration and how it impacts physical and mental performance.",
+            "Step-by-step strategies to prepare meals for the week while saving time and money.",
+            "Introduction to superfoods like kale, quinoa, and chia seeds, along with simple recipes.",
+            "Learn how to fuel your body before, during, and after workouts for maximum energy.",
+            "Practical guidance on creating allergy-friendly meals without compromising nutrition.",
+            "An overview of probiotics and prebiotics, and their role in supporting gut health.",
+            "Exposing popular misconceptions about nutrition and providing evidence-based facts.",
+            "A breakdown of essential vitamins and minerals, and how to get enough through food."
+        ];
+
+        function showBlog(index) {
+            const blogDetails = document.getElementById("blog-details");
+            const blogContent = document.getElementById("blog-content");
+            blogContent.innerHTML = `<h2>Blog ${index}</h2><p>${blogs[index - 1]}</p>`;
+            blogDetails.classList.remove("hidden");
+        }
+
+        function hideBlog() {
+            const blogDetails = document.getElementById("blog-details");
+            blogDetails.classList.add("hidden");
+        }
+        function toggleDetails(index) {
+            const details = document.getElementById(`details-${index}`);
+            if (details.classList.contains('hidden')) {
+                details.classList.remove('hidden');
+            } else {
+                details.classList.add('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
