@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goal Check</title>
-    <link rel="stylesheet" href="../static/css/style3.css"> 
+    <link rel="stylesheet" href="../static/css/style3.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 </head>
 <body style="background-image: url('../static/images/goalcheck.jpeg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
 
@@ -22,10 +23,21 @@
             <button id="compareButton" class="btn-compare">Compare</button>
         </div>
 
-      
+        <div class="progress-container">
+            <p>Progress toward your goal:</p>
+            <div class="progress-bar">
+                <div id="progressFill" class="progress-fill"></div>
+            </div>
+        </div>
+
         <div id="resultMessage" class="result-message" style="display: none;"></div>
+
+        <div class="chart-container">
+            <h3>Progress Over Time</h3>
+            <canvas id="progressChart"></canvas>
+        </div>
     </div>
 
-    <script src="../static/js/goal_check.js"></script> 
+    <script src="../static/js/goal_check.js"></script>
 </body>
 </html>
