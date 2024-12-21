@@ -82,9 +82,10 @@
                     <li> <a class="nav-link" href="#plans">Plans</a> </li>
                     <li> <a class="nav-link" href="#blog">T&T</a> </li>
                     <li> <a class="nav-link" href="#dtr-footer">Contact</a></li>
-                    <li> <a class="nav-link" href="ht.html" target="_blank">Hydration Tracker</a></li>
-                    <li> <a class="nav-link" href="blogs.html" target="_blank">Blogs</a></li>
-                    <li> <a class="nav-link" href="rateus.html" target="_blank">Rate Us</a></li>
+                    <li><a class="nav-link" href="{{ url_for('ht') }}">Hydration Tracker</a></li>
+                    <li><a class="nav-link" href="{{ url_for('blogs') }}">Blogs</a></li>
+                    <li><a class="nav-link" href="{{ url_for('rate_us') }}">Rate Us</a></li>
+                    <li> <a class="nav-link" href="{{ url_for('logout') }}" class="btn btn-danger btn-sm">Logout</a></li>
                 </ul>
             </div>
             <!-- menu ends -->
@@ -92,75 +93,6 @@
     </header>
     <!-- header ends
 ================================================== -->
-
-<!-- Sign Up Modal -->
-<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form id="signupForm" action="/signup" method="post">
-                    <div class="form-group">
-                        <label for="signupEmail">Email Address</label>
-                        <input type="email" class="form-control" id="signupEmail" name="email" placeholder="Enter your email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="signupPassword">Password</label>
-                        <input type="password" class="form-control" id="signupPassword" name="password" placeholder="Enter your password" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
-                </form>
-                <hr>
-                <p class="text-center">Or</p>
-                <a href="/login/google" class="btn btn-danger btn-block">
-                    <i class="fab fa-google"></i> Sign Up with Google
-                </a>
-            </div>
-            <div class="modal-footer">
-                <p>Already have an account? 
-                    <a href="#" data-toggle="modal" data-target="#signinModal" data-dismiss="modal">Sign In Here</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Sign In Modal -->
-<div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="signinModalLabel">Sign In</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form id="signinForm" action="/signin" method="post">
-                    <div class="form-group">
-                        <label for="signinEmail">Email Address</label>
-                        <input type="email" class="form-control" id="signinEmail" name="email" placeholder="Enter your email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="signinPassword">Password</label>
-                        <input type="password" class="form-control" id="signinPassword" name="password" placeholder="Enter your password" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-                </form>
-                <hr>
-                <p class="text-center">Or</p>
-                <a href="/login/google" class="btn btn-danger btn-block">
-                    <i class="fab fa-google"></i> Sign In with Google
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
 
     <!-- == main content area starts == -->
     <div id="dtr-main-content">
@@ -257,7 +189,7 @@
 
         <!-- benefits section starts
 ================================================== -->
-<!-- <section class="dtr-section">
+<section class="dtr-section">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
@@ -266,18 +198,7 @@
             </div>
         </div>
     </div>
-</section> -->
-<section class="dtr-section" id="benefits-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <!-- The benefit will be shown here after fetched from the server automatically -->
-                <div id="benefit-display">Today's Benefit Will Show Here</div>
-            </div>
-        </div>
-    </div>
 </section>
-
         <!-- benefits section ends
 ================================================== -->
            
@@ -304,7 +225,7 @@
                             <div class="dtr-feature-content">
                                 <h4><span class="color-gold">01.</span> Calorie Calculation</h4>
                                 <p>This tool helps you calculate the number of calories your body needs daily to maintain or reach your desired weight.</p>
-                                <a href="calcalc.html" class="dtr-btn btn-black w-100" role="button">Check</a>
+                                <a href="{{ url_for('calcalc') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
 
                             </div>
                         </div>
@@ -322,8 +243,7 @@
                             <div class="dtr-feature-content">
                                 <h4><span class="color-gold">02.</span> BMI Calculation</h4>
                                 <p>This tool allows you to calculate your Body Mass Index (BMI), which helps assess whether you are in a healthy weight range based on your height and weight.</p>
-                                <a href="bmi.html" class="dtr-btn btn-black w-100" role="button">Check</a>
-
+                                <a href="{{ url_for('bmi') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
                             </div>
                         </div>
                         <!-- feature 1 ends -->
@@ -362,8 +282,7 @@
                             <div class="dtr-feature-content">
                                 <h4><span class="color-gold">04.</span> Goal Check</h4>
                                 <p>Checks if user's goal weight is met by comparing the user's current weight and goal weight.</p>
-                                <a href="goal_check.html" class="dtr-btn btn-black w-100" role="button">Check</a>
-
+                                <a href="{{ url_for('goal_check') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
                             </div>
                         </div>
                         <!-- feature 4 ends -->
@@ -1483,7 +1402,6 @@
 <script src="../static/js/feedback.js"></script>
 <script src="../static/js/contact.js"></script>
 <script src="../static/js/sub.js"></script>
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
     $(document).ready(function () {
         $('#signupForm').submit(function (event) {
@@ -1534,7 +1452,7 @@
         });
     });
 </script> 
-<!-- <script>
+<script>
     document.getElementById('new-benefit-btn').addEventListener('click', function() {
         fetch('/get-random-benefit')
             .then(response => response.json())
@@ -1551,7 +1469,7 @@
                 document.getElementById('benefit-display').innerText = 'Error loading benefit.';
             });
     });
-    </script> -->
+    </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const notificationHistory = []; // Array to store notification history
@@ -1592,17 +1510,5 @@
             });
         });
     </script>
-    
-    
-<script>
-    window.OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-      OneSignal.init({
-        appId: "8a9bbaeb-d31b-4195-9a22-1e615ae7baf0",
-      });
-      OneSignal.showNativePrompt(); // This ensures users are prompted to subscribe on page load
-    });
-  </script>
-    
 </body>
 </html>

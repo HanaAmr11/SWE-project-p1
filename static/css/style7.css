@@ -10,14 +10,14 @@
 }
 
 #new-benefit-btn:hover {
-    background-color: #9f6718; /* Darker shade for hover effect */
+    background-color: #9f6718;
 }
 
 #benefit-display {
     margin-top: 20px;
     padding: 15px;
-    background-color: #ffffff; /* White background for the text */
-    color: #333; /* Dark grey text */
-    border-left: 5px solid #cc8e35; /* Orange border to the left */
+    background-color: #ffffff;
+    color: #333;
+    border-left: 5px solid #cc8e35; 
     font-size: 16px;
 }
