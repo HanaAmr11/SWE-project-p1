@@ -9,8 +9,9 @@ from itsdangerous import SignatureExpired, BadTimeSignature
 from itsdangerous import URLSafeTimedSerializer as Serializer
 from dotenv import load_dotenv
 import os
-import random
 import pandas as pd
+from datetime import datetime
+import json
 
 load_dotenv()
 app = Flask(__name__)
@@ -207,17 +208,28 @@ def rate_us():
 
 
 benefits_df = pd.read_csv('C:/Users/nodi3/Downloads/SWE-project-p1/fruit_vegetable_benefits.csv')
+DAILY_BENEFIT_FILE = 'daily_benefit.json'
+@app.route('/get-daily-benefit', methods=['GET'])
+def get_daily_benefit():
+    try:
+        if benefits_df.empty:
+            return jsonify({"error": "No benefits available in the dataset."}), 500
+        random_row = benefits_df.sample(n=1).iloc[0]
+        benefit = {
+            "Name": random_row["Name"],
+            "Type": random_row["Type"],
+            "Benefit": random_row["Benefit"]
+        }
+        with open(DAILY_BENEFIT_FILE, 'w') as file:
+            json.dump({
+                "date": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                "benefit": benefit
+            }, file)
 
-@app.route('/get-random-benefit')
-def get_random_benefit():
-    if not benefits_df.empty:
-        random_idx = random.randint(0, len(benefits_df)-1)
-        benefit = benefits_df.iloc[random_idx].to_dict()
-        print(benefit)
         return jsonify(benefit)
-    else:
-        return jsonify({"error": "No data available"}), 404
-
+    except Exception as e:
+        print("🚨 Error in get_daily_benefit:", str(e))
+        return jsonify({"error": str(e)}), 500
     
 if __name__ == "__main__":
     with app.app_context():
