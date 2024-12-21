@@ -190,82 +190,92 @@
         </section>
         <!-- about section ends
 ================================================== -->
-        <!-- services section starts
-================================================== -->
-        <section id="services" class="dtr-section dtr-py-100">
-            <div class="container">
-                <!-- heading starts -->
-                <div class="dtr-section-heading text-center">
-                    <h2>What I Specialize In</h2>
+ <!-- services section starts ================================================== -->
+<section id="services" class="dtr-section dtr-py-100">
+    <div class="container">
+        <!-- heading starts -->
+        <div class="dtr-section-heading text-center mb-5">
+            <h2>What I Specialize In</h2>
+        </div>
+        <!-- heading ends -->
+
+        <!--== row starts ==-->
+        <div class="row g-4">
+            <!-- column 1 starts -->
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50 shadow-sm rounded">
+                    <div class="dtr-feature-img">
+                        <img src="../static/images/service-icon1.png" alt="image" class="img-fluid">
+                    </div>
+                    <div class="dtr-feature-content mt-3">
+                        <h4><span class="color-gold">01.</span> Calorie Calculation</h4>
+                        <p>
+                            This tool helps you calculate the number of calories your body needs daily to maintain or
+                            reach your desired weight.
+                        </p>
+                        <a href="{{ url_for('calcalc') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
+                    </div>
                 </div>
-                <!-- heading ends -->
-                <!--== row 1 starts ==-->
-                <div class="row">
-                    <!-- column 1 starts -->
-                    <div class="col-12 col-md-6">
-                        <!-- feature 1 starts -->
-                        <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50">
-                            <div class="dtr-feature-img"><img src="../static/images/service-icon1.png" alt="image"></div>
-                            <div class="dtr-feature-content">
-                                <h4><span class="color-gold">01.</span> Calorie Calculation</h4>
-                                <p>This tool helps you calculate the number of calories your body needs daily to maintain or reach your desired weight.</p>
-                                <a href="{{ url_for('calcalc') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
-                            </div>
-                        </div>
-                        <!-- feature 1 ends -->
-                    </div>
-                    <!-- column 1 ends -->
-                    <!-- column 2 starts -->
-                    <div class="col-12 col-md-6">
-                        <!-- feature 1 starts -->
-                        <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50">
-                            <div class="dtr-feature-img"><img src="../static/images/service-icon2.png" alt="image"></div>
-                            <div class="dtr-feature-content">
-                                <h4><span class="color-gold">02.</span> BMI Calculation</h4>
-                                <p>This tool allows you to calculate your Body Mass Index (BMI), which helps assess whether you are in a healthy weight range based on your height and weight.</p>
-                                <a href="{{ url_for('bmi') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
-                            </div>
-                        </div>
-                        <!-- feature 1 ends -->
-                    </div>
-                    <!-- column 2 ends -->
-                </div>
-                <!--== row 1 ends ==-->
-                <!--== row 2 starts ==-->
-                <div class="row">
-                    <!-- column 1 starts -->
-                    <div class="col-12 col-md-6">
-                        <!-- feature 3 starts -->
-                        <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50">
-                            <div class="dtr-feature-img"><img src="../static/images/service-icon3.png" alt="image"></div>
-                            <div class="dtr-feature-content">
-                                <h4><span class="color-gold">03.</span> personalized Plans</h4>
-                                <p> It generates balanced meal plans based on user goals and calorie.</p>
-                                <a href="{{ url_for('index') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
-                        </div>
-                        <!-- feature 3 ends -->
-                    </div>
-                    <!-- column 1 ends -->
-                    <!-- column 2 starts -->
-                    <div class="col-12 col-md-6">
-                        <!-- feature 4 starts -->
-                        <div id="f4" class="dtr-feature dtr-feature-left bg-grey dtr-p-50">
-                            <div class="dtr-feature-img"><img src="../static/images/service-icon4.png" alt="image"></div>
-                            <div class="dtr-feature-content">
-                                <h4><span class="color-gold">04.</span> Goal Check</h4>
-                                <p>Checks if user's goal weight is met by comparing the user's current weight and goal weight.</p>
-                                <a href="{{ url_for('goal_check') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
-                            </div>
-                        </div>
-                        <!-- feature 4 ends -->
-                    </div>
-                    <!-- column 2 ends -->
-                </div>
-                <!--== row 2 ends ==-->
             </div>
-        </section>
-        <!-- services section ends
-================================================== -->
+            <!-- column 1 ends -->
+
+            <!-- column 2 starts -->
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50 shadow-sm rounded">
+                    <div class="dtr-feature-img">
+                        <img src="../static/images/service-icon2.png" alt="image" class="img-fluid">
+                    </div>
+                    <div class="dtr-feature-content mt-3">
+                        <h4><span class="color-gold">02.</span> BMI Calculation</h4>
+                        <p>
+                            This tool allows you to calculate your Body Mass Index (BMI), which helps assess whether you
+                            are in a healthy weight range based on your height and weight.
+                        </p>
+                        <a href="{{ url_for('bmi') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
+                    </div>
+                </div>
+            </div>
+            <!-- column 2 ends -->
+
+            <!-- column 3 starts -->
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50 shadow-sm rounded">
+                    <div class="dtr-feature-img">
+                        <img src="../static/images/service-icon3.png" alt="image" class="img-fluid">
+                    </div>
+                    <div class="dtr-feature-content mt-3">
+                        <h4><span class="color-gold">03.</span> Personalized Plans</h4>
+                        <p>
+                            It generates balanced meal plans based on user goals and calorie needs.
+                        </p>
+                        <a href="{{ url_for('meal_plan.home') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
+                    </div>
+                </div>
+            </div>
+            <!-- column 3 ends -->
+
+            <!-- column 4 starts -->
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="dtr-feature dtr-feature-left bg-grey dtr-p-50 shadow-sm rounded">
+                    <div class="dtr-feature-img">
+                        <img src="../static/images/service-icon4.png" alt="image" class="img-fluid">
+                    </div>
+                    <div class="dtr-feature-content mt-3">
+                        <h4><span class="color-gold">04.</span> Goal Check</h4>
+                        <p>
+                            Checks if your goal weight is met by comparing the user's current weight and goal weight.
+                        </p>
+                        <a href="{{ url_for('goal_check') }}" class="dtr-btn btn-black w-100" role="button">Check</a>
+                    </div>
+                </div>
+            </div>
+            <!-- column 4 ends -->
+        </div>
+        <!--== row ends ==-->
+    </div>
+</section>
+<!-- services section ends ================================================== -->
+
 <!-- Checklist-->
 <section id="daily-goals" class="dtr-section dtr-py-100 bg-light">
     <div class="container">

@@ -12,6 +12,7 @@ import os
 import pandas as pd
 from datetime import datetime
 import json
+from app2 import meal_plan_bp
 
 load_dotenv()
 app = Flask(__name__)
@@ -48,6 +49,8 @@ google = oauth.register(
 
 serializer = Serializer(app.secret_key)
 
+app.register_blueprint(meal_plan_bp, url_prefix='/meal_plan')
+
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(150), unique=True, nullable=False)
@@ -56,7 +59,7 @@ class User(db.Model, UserMixin):
 
 @login_manager.user_loader
 def load_user(user_id):
-    return User.query.get(int(user_id))
+    return db.session.get(User, int(user_id))
 
 @app.route("/")
 def index():
@@ -206,8 +209,7 @@ def blogs():
 def rate_us():
     return render_template("rateus.html")
 
-
-benefits_df = pd.read_csv('C:/Users/nodi3/Downloads/SWE-project-p1/fruit_vegetable_benefits.csv')
+benefits_df = pd.read_csv('fruit_vegetable_benefits.csv')
 DAILY_BENEFIT_FILE = 'daily_benefit.json'
 @app.route('/get-daily-benefit', methods=['GET'])
 def get_daily_benefit():
