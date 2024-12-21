@@ -1,0 +1,19 @@
+
+    .form-check-label {
+        color: black !important;
+        font-weight: bold;
+        margin-left: 10px; 
+    }
+    .form-check {
+        margin-bottom: 15px; 
+    }
+
+
+
+    .form-check-label {
+        color: black !important;
+        font-weight: bold;
+    }
+    img {
+        border-radius: 5px; 
+    }

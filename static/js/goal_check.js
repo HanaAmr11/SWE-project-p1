@@ -5,7 +5,7 @@ document.getElementById("compareButton").onclick = function() {
     const currentWeight = parseFloat(document.getElementById("currentWeight").value);
     const goalWeight = parseFloat(document.getElementById("goalWeight").value);
 
-    // Input validation
+
     if (isNaN(currentWeight) || isNaN(goalWeight) || currentWeight <= 0 || goalWeight <= 0) {
         alert("Please enter valid positive numbers for both current weight and goal weight.");
         return;
@@ -15,7 +15,7 @@ document.getElementById("compareButton").onclick = function() {
     const progressFill = document.getElementById("progressFill");
     const progress = Math.min((goalWeight / currentWeight) * 100, 100);
 
-    // Update progress bar
+   
     progressFill.style.width = `${progress}%`;
 
     if (currentWeight === goalWeight) {
@@ -35,14 +35,14 @@ document.getElementById("compareButton").onclick = function() {
 
     resultMessage.style.display = "block";
 
-    // Save weight and timestamp
+    
     weights.push(currentWeight);
     timestamps.push(new Date().toLocaleString());
 
     updateChart();
 };
 
-// Confetti effect when goal is reached
+
 function launchConfetti() {
     const body = document.body;
     for (let i = 0; i < 100; i++) {
@@ -65,7 +65,7 @@ function getRandomColor() {
     return color;
 }
 
-// Chart.js chart setup
+
 const ctx = document.getElementById('progressChart').getContext('2d');
 const progressChart = new Chart(ctx, {
     type: 'line',
@@ -82,7 +82,7 @@ const progressChart = new Chart(ctx, {
     },
     options: {
         responsive: true,
-        maintainAspectRatio: true, // Ensure proportional scaling
+        maintainAspectRatio: true, 
         scales: {
             x: {
                 title: {
