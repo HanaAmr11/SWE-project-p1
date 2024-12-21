@@ -191,7 +191,8 @@
         </section>
         <!-- about section ends
 ================================================== -->
- <!-- services section starts ================================================== -->
+ <!-- services section starts
+ ================================================== -->
 <section id="services" class="dtr-section dtr-py-100">
     <div class="container">
         <!-- heading starts -->
@@ -250,7 +251,7 @@
                             It generates balanced meal plans based on user goals and calorie needs.
                         </p>
                         <a href="{{ url_for('meal_plan.home') }}" class="dtr-btn btn-black w-100" role="button">Daily Check</a>
-                        <a href="{{ url_for('index2') }}" class="dtr-btn btn-black w-100" role="button">Weekly Check</a>
+                        <a href="{{ url_for('weekly_meal_plan.home_weekly') }}" class="dtr-btn btn-black w-100" role="button">Weekly Check</a>
                     </div>
                 </div>
             </div>
@@ -276,7 +277,8 @@
         <!--== row ends ==-->
     </div>
 </section>
-<!-- services section ends ================================================== -->
+<!-- services section ends 
+ ================================================== -->
 
 <!-- Checklist-->
 <section id="daily-goals" class="dtr-section dtr-py-100 bg-light">
@@ -1477,6 +1479,6 @@
         });
     });
 </script> 
- 
+
 </body>
 </html>

@@ -13,6 +13,7 @@ import pandas as pd
 from datetime import datetime
 import json
 from app2 import meal_plan_bp
+from app3 import weekly_meal_plan_bp
 
 load_dotenv()
 app = Flask(__name__)
@@ -50,6 +51,7 @@ google = oauth.register(
 serializer = Serializer(app.secret_key)
 
 app.register_blueprint(meal_plan_bp, url_prefix='/meal_plan')
+app.register_blueprint(weekly_meal_plan_bp, url_prefix='/weekly_meal_plan')
 
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)

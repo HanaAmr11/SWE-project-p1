@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍎 Weekly Meal Plan Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/meal.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🍎 Weekly Meal Plan Generator</h1>
+        <form id="weeklyMealPlanForm" method="POST" action="{{ url_for('weekly_meal_plan.generate_weekly_plan') }}">
+            <label for="calories">Enter Daily Calories:</label>
+            <input type="number" id="calories" name="calories" placeholder="e.g., 2000" required>
+
+            <label for="goal">Select Your Goal:</label>
+            <select id="goal" name="goal">
+                <option value="lose">Lose Weight</option>
+                <option value="gain">Gain Weight</option>
+            </select>
+
+            <button type="submit">Generate Weekly Meal Plan</button>
+        </form>
+
+        <div id="mealPlanResult">
+            {% if weekly_plan %}
+                <h2>Your Personalized Weekly Meal Plan</h2>
+                {% for day in weekly_plan %}
+                <div class="day-container">
+                    <h3>{{ day['day'] }}</h3>
+                    <table class="meal-table">
+                        <thead>
+                            <tr>
+                                <th>Meal Type</th>
+                                <th>Meal Name</th>
+                                <th>Calories</th>
+                                <th>Protein (g)</th>
+                                <th>Carbs (g)</th>
+                                <th>Fats (g)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for meal in day['meals'] %}
+                            <tr>
+                                <td>{{ meal['meal_type'] }}</td>
+                                <td>{{ meal['meal_name'] }}</td>
+                                <td>{{ meal['calories'] }}</td>
+                                <td>{{ meal['protein'] }}</td>
+                                <td>{{ meal['carbohydrate'] }}</td>
+                                <td>{{ meal['fats'] }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total Calories</td>
+                                <td>{{ day['total_calories'] }} kcal</td>
+                                <td colspan="3"></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
