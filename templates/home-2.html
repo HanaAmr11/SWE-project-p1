@@ -297,7 +297,72 @@
         </section>
         <!-- services section ends
 ================================================== -->
+<!-- Checklist-->
+<section id="daily-goals" class="dtr-section dtr-py-100 bg-light">
+    <div class="container">
+        <!-- Heading -->
+        <div class="dtr-section-heading text-center">
+            <h2>Daily Goals Checklist</h2>
+            <p>Track your progress by marking your completed goals!</p>
+        </div>   
+        <!-- Checklist Items -->
+        <div class="dtr-form dtr-styled-form dtr-mt-40">
+            <form id="dailyGoalsForm">
+                <fieldset>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="goal1">
+                        <label class="form-check-label" for="goal1">Drink 8 glasses of water</label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="goal2">
+                        <label class="form-check-label" for="goal2">Eat 5 servings of fruits/vegetables</label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="goal3">
+                        <label class="form-check-label" for="goal3">Exercise for 30 minutes</label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="goal4">
+                        <label class="form-check-label" for="goal4">Avoid sugary snacks</label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="goal5">
+                        <label class="form-check-label" for="goal5">Sleep at least 7 hours</label>
+                    </div>
+                    <!-- Save Progress Button -->
+                    <p class="text-center dtr-mt-40">
+                        <button class="dtr-btn btn-black" type="button" id="saveGoals">Save Progress</button>
+                    </p>
+                </fieldset>
+            </form>
+            <!-- Success Message -->
+            <p id="goalsSuccess" class="text-success" style="display: none;">Your progress has been saved!</p>
+        </div>
+    </div>
+</section>
 
+<style>
+    /* Adjust spacing between checkboxes and text */
+    .form-check-label {
+        color: black !important;
+        font-weight: bold;
+        margin-left: 10px; /* Adds space between checkbox and label */
+    }
+    .form-check {
+        margin-bottom: 15px; /* Adds vertical spacing between checkboxes */
+    }
+</style>
+
+
+<!-- <style>
+    .form-check-label {
+        color: black !important;
+        font-weight: bold;
+    }
+    img {
+        border-radius: 5px; /* Optional: Round the edges of the image */
+    }
+</style> -->
 <!-- ----------------------------------------------- -->
 <!-- Feedback Section -->
 <section id="feedback" class="dtr-section dtr-py-100 bg-light" style="background-image: url(../static/images/footer-bg.jpg); margin-bottom: 50px;">
@@ -1510,5 +1575,6 @@
             });
         });
     </script>
+
 </body>
 </html>

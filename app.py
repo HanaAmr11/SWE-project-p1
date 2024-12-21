@@ -12,20 +12,22 @@ import os
 import random
 import pandas as pd
 
-
+# Load environment variables
 load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY")
 
-
+# Database configuration
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'sqlite:///users.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
+# Security and Authentication
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
-login_manager.login_view = "signup"
+login_manager.login_view = "signin"
 
+# Mail Configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
@@ -35,8 +37,10 @@ app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD')
 app.config['MAIL_DEFAULT_SENDER'] = os.environ.get('MAIL_DEFAULT_SENDER')
 mail = Mail(app)
 
+# Serializer for token generation
 serializer = Serializer(app.secret_key)
 
+# OAuth for Google Login
 oauth = OAuth(app)
 google = oauth.register(
     name='google',
@@ -46,17 +50,18 @@ google = oauth.register(
     client_kwargs={'scope': 'openid email profile'}
 )
 
-serializer = Serializer(app.secret_key)
-
+# Database Model
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(150), unique=True, nullable=False)
-    password = db.Column(db.String(256), nullable=True)  
-    role = db.Column(db.String(50), default="user") 
+    password = db.Column(db.String(256), nullable=True)
+    role = db.Column(db.String(50), default="user")
 
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
+
+# Routes
 
 @app.route("/")
 def index():
@@ -74,15 +79,16 @@ def signup():
         password = request.form.get("password")
 
         if User.query.filter_by(email=email).first():
-            return jsonify({"success": False, "message": "User already exists"}), 400
+            flash("User already exists", "danger")
+            return redirect(url_for("signup"))
 
         hashed_password = bcrypt.generate_password_hash(password).decode("utf-8")
         new_user = User(email=email, password=hashed_password)
         db.session.add(new_user)
         db.session.commit()
         login_user(new_user)
-        return redirect(url_for("home"))   
-                
+        return redirect(url_for("home"))
+
     return render_template("signup.html")
 
 @app.route("/signin", methods=["GET", "POST"])
@@ -97,8 +103,8 @@ def signin():
             login_user(user)
             return redirect(url_for("home"))
         error = "Invalid email or password. Please try again."
-    
-    return render_template("signin.html", error=error)  
+
+    return render_template("signin.html", error=error)
 
 @app.route("/logout")
 @login_required
@@ -117,7 +123,7 @@ def forgot_password():
 
             msg = Message("Password Reset Request",
                           sender=app.config['MAIL_DEFAULT_SENDER'],
-                          recipients=[email])  
+                          recipients=[email])
             msg.body = f"To reset your password, click the following link: {reset_url}"
 
             try:
@@ -136,17 +142,14 @@ def forgot_password():
 def reset_password(token):
     try:
         email = serializer.loads(token, salt=os.environ.get("PASSWORD_RESET_SALT", "default-salt"), max_age=3600)
-    except SignatureExpired:
-        flash("The link has expired, please request a new one.", "danger")
-        return redirect(url_for("forgot_password"))
-    except BadTimeSignature:
+    except (SignatureExpired, BadTimeSignature):
         flash("The token is invalid or expired.", "danger")
         return redirect(url_for("forgot_password"))
 
     if request.method == "POST":
         new_password = request.form.get("password")
         hashed_password = bcrypt.generate_password_hash(new_password).decode("utf-8")
-        
+
         user = User.query.filter_by(email=email).first()
         if user:
             user.password = hashed_password
@@ -180,7 +183,6 @@ def google_callback():
     else:
         flash("Authentication failed. Please try again.", "danger")
         return redirect(url_for('signin'))
-    
 
 @app.route("/calcalc")
 def calcalc():
@@ -206,21 +208,18 @@ def blogs():
 def rate_us():
     return render_template("rateus.html")
 
-
-benefits_df = pd.read_csv('C:/Users/nodi3/Downloads/SWE-project-p1/fruit_vegetable_benefits.csv')
+# Random Benefit
+benefits_df = pd.read_csv('C:/Users/farah mostafa/Documents/GitHub/SWE-project-p1/fruit_vegetable_benefits.csv')
 
 @app.route('/get-random-benefit')
 def get_random_benefit():
     if not benefits_df.empty:
         random_idx = random.randint(0, len(benefits_df)-1)
         benefit = benefits_df.iloc[random_idx].to_dict()
-        print(benefit)
         return jsonify(benefit)
-    else:
-        return jsonify({"error": "No data available"}), 404
+    return jsonify({"error": "No data available"}), 404
 
-    
 if __name__ == "__main__":
     with app.app_context():
-        db.create_all() 
-    app.run(debug=True, use_reloader=False)
+        db.create_all()
+    app.run(debug=True)
