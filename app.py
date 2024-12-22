@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for, flash
+from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager, UserMixin, login_user, logout_user, current_user, login_required
@@ -18,8 +19,7 @@ from app3 import weekly_meal_plan_bp
 load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY")
-
-
+CORS(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'sqlite:///users.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
@@ -238,4 +238,4 @@ def get_daily_benefit():
 if __name__ == "__main__":
     with app.app_context():
         db.create_all() 
-    app.run(debug=True, use_reloader=False)
+    app.run(debug=True, host="0.0.0.0", port=5000, use_reloader=False)
