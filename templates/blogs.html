@@ -68,37 +68,69 @@
     </div>
     <script>
         const blogs = [
-            "Detailed insights about why a balanced diet is essential, focusing on major food groups and portion control.",
-            "Understand how proteins, fats, and carbs fuel your body, and tips to balance them in your meals.",
-            "The science behind hydration and how it impacts physical and mental performance.",
-            "Step-by-step strategies to prepare meals for the week while saving time and money.",
-            "Introduction to superfoods like kale, quinoa, and chia seeds, along with simple recipes.",
-            "Learn how to fuel your body before, during, and after workouts for maximum energy.",
-            "Practical guidance on creating allergy-friendly meals without compromising nutrition.",
-            "An overview of probiotics and prebiotics, and their role in supporting gut health.",
-            "Exposing popular misconceptions about nutrition and providing evidence-based facts.",
-            "A breakdown of essential vitamins and minerals, and how to get enough through food."
+            `<h2>Blog 1: The Importance of Balanced Diet</h2>
+            <p>
+            A balanced diet is the cornerstone of a healthy life 🌟. It ensures that your body receives the essential nutrients it needs, including carbohydrates, proteins, fats, vitamins, and minerals. By eating a variety of foods, you provide your body with the energy and nutrients required to function efficiently. A balanced diet helps in preventing chronic illnesses such as obesity, diabetes, and heart disease. Incorporating fruits, vegetables, lean proteins, whole grains, and healthy fats into your meals boosts immunity, improves mental health, and keeps energy levels high throughout the day. Remember, eating mindfully and staying hydrated are equally important aspects of maintaining a well-balanced diet.
+            </p>`,
+    
+            `<h2>Blog 2: Understanding Macronutrients</h2>
+            <p>
+            Macronutrients—proteins, carbohydrates, and fats—are the building blocks of nutrition 🛠️. Proteins are essential for muscle repair and growth, carbohydrates provide the energy your body needs, and fats support vital organ function and energy storage. A healthy diet balances these macronutrients based on individual needs and lifestyle. For example, athletes may require higher protein intake, while someone focusing on energy levels might need more complex carbohydrates. Understanding the roles of these nutrients and opting for whole, unprocessed sources ensures optimal health and vitality.
+            </p>`,
+    
+            `<h2>Blog 3: Hydration and Health</h2>
+            <p>
+            Staying hydrated is a fundamental aspect of good health 💧. Water regulates body temperature, aids in digestion, and helps transport nutrients and oxygen to cells. Dehydration can lead to fatigue, headaches, and impaired physical and mental performance. While water is the best choice, beverages like herbal teas and coconut water can also contribute to hydration. Aim for at least 8 glasses of water daily, adjusting based on activity level, climate, and individual needs. Keep a reusable water bottle handy to make hydration a seamless part of your day.
+            </p>`,
+    
+            `<h2>Blog 4: Meal Prep Tips</h2>
+            <p>
+            Meal prepping is a game-changer for busy lifestyles 🕒. It saves time, reduces food waste, and helps maintain a healthy eating routine. Start by planning your meals for the week and creating a grocery list to stay organized. Batch-cooking staples like grains, proteins, and roasted vegetables can make assembling meals quick and easy. Invest in good-quality containers to store prepped meals and snacks, and remember to balance your meals with protein, carbs, and healthy fats. Meal prepping makes it easier to avoid unhealthy food choices when you're short on time.
+            </p>`,
+    
+            `<h2>Blog 5: Superfoods Explained</h2>
+            <p>
+            Superfoods like kale, quinoa, and chia seeds are nutrient-dense options that can elevate your diet 🥗. Packed with vitamins, minerals, and antioxidants, these foods support overall health and may reduce the risk of chronic diseases. For instance, kale is rich in vitamin K and calcium, while quinoa provides a complete protein source for vegetarians. Incorporating superfoods into your diet can be as simple as adding chia seeds to your morning smoothie or using quinoa as a base for a salad. These small changes can have a big impact on your nutritional intake.
+            </p>`,
+    
+            `<h2>Blog 6: Nutrition for Athletes</h2>
+            <p>
+            Proper nutrition is essential for athletes to perform at their best 🏃. Before exercise, carbohydrates provide the energy needed for endurance, while protein supports muscle repair after workouts. Staying hydrated is equally critical, as even mild dehydration can impact performance. Incorporating nutrient-dense snacks like bananas, nuts, or yogurt can fuel training sessions effectively. Additionally, timing meals around workouts is crucial for maximizing recovery and muscle growth. A balanced diet tailored to an athlete's specific needs is the foundation of achieving fitness goals.
+            </p>`,
+    
+            `<h2>Blog 7: Managing Food Allergies</h2>
+            <p>
+            Navigating food allergies can be challenging, but it’s possible to maintain a balanced diet with proper planning 🌾. Start by identifying safe alternatives to allergenic foods, such as almond milk for dairy allergies or gluten-free grains for celiac disease. Reading food labels carefully and consulting with a nutritionist can help ensure you're meeting your dietary needs without risking exposure to allergens. Preparing meals at home gives you full control over ingredients and minimizes cross-contamination risks. With a little effort, you can enjoy a diverse and nutritious diet even with food restrictions.
+            </p>`,
+    
+            `<h2>Blog 8: Gut Health and Nutrition</h2>
+            <p>
+            Gut health plays a vital role in overall well-being, influencing digestion, immunity, and even mental health 🌿. Consuming foods rich in probiotics, like yogurt and kimchi, helps maintain a healthy balance of gut bacteria. Prebiotics, found in foods like garlic and bananas, provide nourishment for these beneficial bacteria. Reducing processed foods and incorporating high-fiber options, such as whole grains and vegetables, supports digestive health. A happy gut leads to better nutrient absorption and a stronger immune system.
+            </p>`,
+    
+            `<h2>Blog 9: Nutrition Myths Debunked</h2>
+            <p>
+            The world of nutrition is filled with myths that can lead to confusion and unhealthy choices 🚫. For example, the idea that carbs are inherently bad ignores the importance of whole grains in providing energy and fiber. Similarly, fat-free diets can deprive your body of essential fatty acids. Debunking these misconceptions requires focusing on balanced, whole-food-based eating habits. Educate yourself with evidence-based information to make informed decisions about your diet and health.
+            </p>`,
+    
+            `<h2>Blog 10: The Role of Micronutrients</h2>
+            <p>
+            Micronutrients, including vitamins and minerals, are vital for maintaining optimal health 💊. These nutrients, though required in small amounts, perform essential functions such as supporting immune health, promoting bone strength, and aiding in energy production. For instance, vitamin C enhances iron absorption, while calcium and vitamin D work together to strengthen bones. A diet rich in fruits, vegetables, nuts, and seeds ensures adequate intake of these critical nutrients. Prioritizing micronutrient-rich foods is key to filling nutritional gaps and promoting long-term well-being.
+            </p>`
         ];
-
+    
         function showBlog(index) {
             const blogDetails = document.getElementById("blog-details");
             const blogContent = document.getElementById("blog-content");
-            blogContent.innerHTML = `<h2>Blog ${index}</h2><p>${blogs[index - 1]}</p>`;
+            blogContent.innerHTML = blogs[index - 1];
             blogDetails.classList.remove("hidden");
         }
-
+    
         function hideBlog() {
             const blogDetails = document.getElementById("blog-details");
             blogDetails.classList.add("hidden");
         }
-        function toggleDetails(index) {
-            const details = document.getElementById(`details-${index}`);
-            if (details.classList.contains('hidden')) {
-                details.classList.remove('hidden');
-            } else {
-                details.classList.add('hidden');
-            }
-        }
     </script>
+    
 </body>
 </html>
