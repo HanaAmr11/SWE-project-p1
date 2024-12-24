@@ -28,14 +28,12 @@ class WeeklyMealPlanTests(unittest.TestCase):
             os.remove(self.test_csv_path)
 
     def safe_assert(self, condition, message):
-        """Custom assertion to suppress failures and log warnings."""
         try:
             self.assertTrue(condition, message)
         except AssertionError:
             print(f"WARNING: {message}")
 
     def test_generate_weekly_plan(self):
-        """Test generating a weekly meal plan."""
         response = self.app.post('/generate_weekly_plan', data={
             'calories': '2000',
             'goal': 'lose'
@@ -45,7 +43,6 @@ class WeeklyMealPlanTests(unittest.TestCase):
         self.safe_assert(b'Meal' in response.data, "Expected 'Meal' in response data.")
 
     def test_generate_weekly_plan_missing_calories(self):
-        """Test generating a weekly meal plan with missing calories."""
         response = self.app.post('/generate_weekly_plan', data={
             'goal': 'gain'
         })
@@ -53,7 +50,6 @@ class WeeklyMealPlanTests(unittest.TestCase):
         self.safe_assert(b'Error: Calories and goal are required.' in response.data, "Expected error message for missing calories.")
 
     def test_generate_weekly_plan_invalid_goal(self):
-        """Test generating a weekly meal plan with an invalid goal."""
         response = self.app.post('/generate_weekly_plan', data={
             'calories': '2000',
             'goal': 'invalid'
@@ -62,7 +58,6 @@ class WeeklyMealPlanTests(unittest.TestCase):
         self.safe_assert(b'Error' in response.data, "Expected 'Error' in response data for invalid goal.")
 
     def test_generate_weekly_plan_no_dataset(self):
-        """Test generating a weekly meal plan without the dataset."""
         if os.path.exists(self.test_csv_path):
             os.remove(self.test_csv_path)
 

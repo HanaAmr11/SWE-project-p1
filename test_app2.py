@@ -23,7 +23,6 @@ class MealPlanTests(unittest.TestCase):
             os.remove(self.test_csv_path)
 
     def test_generate_meal_plan(self):
-        """Test generating a meal plan with a valid dataset."""
         response = self.app.post('/generate_meal_plan', data={
             'calories': '2000',
             'goal': 'lose'
@@ -37,7 +36,6 @@ class MealPlanTests(unittest.TestCase):
             self.assertIn(b'Example Meal', response.data)
 
     def test_generate_meal_plan_no_file(self):
-        """Test generating a meal plan without the dataset."""
 
         if os.path.exists(self.test_csv_path):
             os.remove(self.test_csv_path)
