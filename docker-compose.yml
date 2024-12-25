@@ -41,4 +41,4 @@ services:
     depends_on:
       - flask_app
 volumes:
-  db_data: {}
+  db_data:
