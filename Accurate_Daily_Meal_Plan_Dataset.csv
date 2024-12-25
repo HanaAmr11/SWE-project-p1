@@ -1,0 +1,1121 @@
+meal_id,meal_name,meal_type,calories,protein,carbohydrate,fats,day_of_week
+1,Avocado Toast,Breakfast,373,12.5,39.2,18.5,Monday
+2,Greek Yogurt with Berries,Breakfast,432,15.7,45.2,20.9,Monday
+3,Smoothie Bowl,Breakfast,329,12.7,39.4,13.4,Monday
+4,Oatmeal with Fruits,Breakfast,363,14.0,37.8,17.3,Monday
+5,Protein Pancakes,Breakfast,416,10.9,51.7,18.4,Monday
+6,Egg Benedict,Breakfast,473,20.7,56.8,18.1,Monday
+7,Spinach Omelette,Breakfast,352,16.4,36.4,15.6,Monday
+8,Quiche Lorraine,Breakfast,361,14.1,39.0,16.5,Monday
+9,Egg Salad,Breakfast,365,11.4,44.6,15.7,Monday
+10,Mango Smoothie,Breakfast,465,11.7,51.5,23.6,Monday
+11,Avocado Toast,Breakfast,386,11.1,41.3,19.6,Monday
+12,Greek Yogurt with Berries,Breakfast,343,16.7,39.3,13.2,Monday
+13,Smoothie Bowl,Breakfast,308,11.6,34.5,13.7,Monday
+14,Oatmeal with Fruits,Breakfast,400,12.2,45.8,18.7,Monday
+15,Protein Pancakes,Breakfast,328,15.4,36.5,13.4,Monday
+16,Egg Benedict,Breakfast,313,15.4,34.7,12.5,Monday
+17,Spinach Omelette,Breakfast,425,10.9,52.6,19.0,Monday
+18,Quiche Lorraine,Breakfast,469,21.5,56.7,17.4,Monday
+19,Egg Salad,Breakfast,397,12.3,43.9,19.1,Monday
+20,Mango Smoothie,Breakfast,462,19.0,51.1,20.2,Monday
+21,Avocado Toast,Breakfast,471,19.8,53.2,19.9,Monday
+22,Greek Yogurt with Berries,Breakfast,300,10.7,30.0,15.2,Monday
+23,Smoothie Bowl,Breakfast,388,14.3,40.7,18.7,Monday
+24,Oatmeal with Fruits,Breakfast,427,19.1,50.7,16.4,Monday
+25,Protein Pancakes,Breakfast,409,20.4,45.9,16.0,Monday
+26,Egg Benedict,Breakfast,388,14.0,38.9,19.6,Monday
+27,Spinach Omelette,Breakfast,368,12.8,42.3,16.4,Monday
+28,Quiche Lorraine,Breakfast,404,11.4,47.1,18.9,Monday
+29,Egg Salad,Breakfast,323,14.1,34.3,14.4,Monday
+30,Mango Smoothie,Breakfast,328,15.3,35.8,13.7,Monday
+31,Avocado Toast,Breakfast,491,20.3,54.7,21.2,Monday
+32,Greek Yogurt with Berries,Breakfast,445,15.7,54.0,18.5,Monday
+33,Smoothie Bowl,Breakfast,327,13.2,34.4,15.2,Monday
+34,Oatmeal with Fruits,Breakfast,408,18.8,44.9,17.0,Monday
+35,Protein Pancakes,Breakfast,461,14.7,54.7,20.4,Monday
+36,Egg Benedict,Breakfast,339,10.0,38.2,16.2,Monday
+37,Spinach Omelette,Breakfast,442,13.2,45.2,23.2,Monday
+38,Quiche Lorraine,Breakfast,362,13.1,38.9,17.1,Monday
+39,Egg Salad,Breakfast,373,12.1,44.2,16.4,Monday
+40,Mango Smoothie,Breakfast,308,15.1,36.3,11.4,Monday
+41,Grilled Chicken Salad,Lunch,603,18.6,65.4,29.7,Monday
+42,Beef Stir Fry,Lunch,796,33.9,87.9,34.3,Monday
+43,Turkey Sandwich,Lunch,623,23.7,64.5,30.0,Monday
+44,Chicken Caesar Wrap,Lunch,758,20.3,75.8,41.5,Monday
+45,Vegetable Biryani,Lunch,573,21.8,60.5,27.1,Monday
+46,Sushi Rolls,Lunch,774,37.0,87.1,30.8,Monday
+47,Chicken Alfredo,Lunch,692,24.4,71.2,34.4,Monday
+48,Beef Burrito,Lunch,617,21.3,65.9,29.8,Monday
+49,Shrimp Tacos,Lunch,699,25.5,73.5,33.7,Monday
+50,Chicken Quesadilla,Lunch,515,23.3,55.0,22.4,Monday
+51,Grilled Chicken Salad,Lunch,681,25.7,84.2,26.8,Monday
+52,Beef Stir Fry,Lunch,732,33.0,76.1,32.8,Monday
+53,Turkey Sandwich,Lunch,627,28.1,74.3,24.2,Monday
+54,Chicken Caesar Wrap,Lunch,553,14.6,59.2,28.6,Monday
+55,Vegetable Biryani,Lunch,684,17.2,78.5,33.5,Monday
+56,Sushi Rolls,Lunch,699,23.9,72.6,34.8,Monday
+57,Chicken Alfredo,Lunch,591,19.1,71.0,25.6,Monday
+58,Beef Burrito,Lunch,588,18.4,69.8,26.1,Monday
+59,Shrimp Tacos,Lunch,750,32.4,86.1,30.7,Monday
+60,Chicken Quesadilla,Lunch,770,37.3,84.0,31.6,Monday
+61,Grilled Chicken Salad,Lunch,787,37.2,90.1,30.9,Monday
+62,Beef Stir Fry,Lunch,797,33.1,90.5,33.6,Monday
+63,Turkey Sandwich,Lunch,593,20.4,62.1,29.2,Monday
+64,Chicken Caesar Wrap,Lunch,603,16.4,66.3,30.2,Monday
+65,Vegetable Biryani,Lunch,561,24.0,61.2,24.5,Monday
+66,Sushi Rolls,Lunch,792,26.9,88.6,36.7,Monday
+67,Chicken Alfredo,Lunch,565,26.1,59.7,24.6,Monday
+68,Beef Burrito,Lunch,516,17.0,57.2,24.4,Monday
+69,Shrimp Tacos,Lunch,748,30.1,89.4,30.0,Monday
+70,Chicken Quesadilla,Lunch,771,19.9,82.1,40.3,Monday
+71,Grilled Chicken Salad,Lunch,579,15.4,68.3,27.1,Monday
+72,Beef Stir Fry,Lunch,502,17.7,57.7,22.3,Monday
+73,Turkey Sandwich,Lunch,663,21.7,68.4,33.6,Monday
+74,Chicken Caesar Wrap,Lunch,532,24.0,53.6,24.6,Monday
+75,Vegetable Biryani,Lunch,515,17.2,59.3,23.2,Monday
+76,Sushi Rolls,Lunch,770,23.0,79.6,40.0,Monday
+77,Chicken Alfredo,Lunch,648,19.7,80.4,27.5,Monday
+78,Beef Burrito,Lunch,766,24.7,77.7,39.6,Monday
+79,Shrimp Tacos,Lunch,632,29.7,75.5,23.5,Monday
+80,Chicken Quesadilla,Lunch,646,18.6,80.1,27.9,Monday
+81,Salmon with Asparagus,Dinner,639,23.3,65.0,31.8,Monday
+82,Fish Curry,Dinner,592,17.2,73.5,25.5,Monday
+83,Steak with Vegetables,Dinner,547,24.7,58.5,23.8,Monday
+84,Chicken Tikka Masala,Dinner,677,28.1,70.3,31.5,Monday
+85,Vegetable Lasagna,Dinner,645,31.9,78.5,22.6,Monday
+86,Beef Stew,Dinner,525,22.8,57.3,22.7,Monday
+87,Pasta Bolognese,Dinner,658,24.0,76.2,28.6,Monday
+88,Grilled Fish,Dinner,530,15.2,62.5,24.4,Monday
+89,Stuffed Bell Peppers,Dinner,536,19.8,55.5,26.1,Monday
+90,Seafood Paella,Dinner,592,24.7,72.9,22.4,Monday
+91,Salmon with Asparagus,Dinner,543,20.9,66.9,21.3,Monday
+92,Fish Curry,Dinner,597,27.9,67.4,24.0,Monday
+93,Steak with Vegetables,Dinner,542,20.9,64.4,22.3,Monday
+94,Chicken Tikka Masala,Dinner,574,19.3,68.2,24.9,Monday
+95,Vegetable Lasagna,Dinner,632,24.7,71.9,27.3,Monday
+96,Beef Stew,Dinner,679,32.5,77.1,26.7,Monday
+97,Pasta Bolognese,Dinner,557,17.5,68.6,23.6,Monday
+98,Grilled Fish,Dinner,590,19.3,68.6,26.5,Monday
+99,Stuffed Bell Peppers,Dinner,691,28.5,70.0,33.0,Monday
+100,Seafood Paella,Dinner,629,20.7,75.2,27.3,Monday
+101,Salmon with Asparagus,Dinner,571,24.2,63.6,24.4,Monday
+102,Fish Curry,Dinner,525,24.7,64.1,18.9,Monday
+103,Steak with Vegetables,Dinner,666,18.5,72.9,33.4,Monday
+104,Chicken Tikka Masala,Dinner,560,25.2,64.7,22.3,Monday
+105,Vegetable Lasagna,Dinner,592,25.8,70.1,23.2,Monday
+106,Beef Stew,Dinner,598,17.9,63.8,30.1,Monday
+107,Pasta Bolognese,Dinner,645,28.9,73.6,26.1,Monday
+108,Grilled Fish,Dinner,568,16.4,57.8,30.1,Monday
+109,Stuffed Bell Peppers,Dinner,642,20.6,76.3,28.3,Monday
+110,Seafood Paella,Dinner,518,15.3,62.6,22.9,Monday
+111,Salmon with Asparagus,Dinner,630,20.5,76.6,26.8,Monday
+112,Fish Curry,Dinner,653,23.9,77.9,27.3,Monday
+113,Steak with Vegetables,Dinner,604,20.4,74.0,25.2,Monday
+114,Chicken Tikka Masala,Dinner,667,19.4,78.9,30.4,Monday
+115,Vegetable Lasagna,Dinner,639,29.7,66.5,28.2,Monday
+116,Beef Stew,Dinner,563,20.4,66.3,24.0,Monday
+117,Pasta Bolognese,Dinner,617,27.7,66.9,26.5,Monday
+118,Grilled Fish,Dinner,656,31.4,71.8,27.0,Monday
+119,Stuffed Bell Peppers,Dinner,546,18.5,66.9,22.7,Monday
+120,Seafood Paella,Dinner,520,15.0,60.3,24.3,Monday
+121,Fruit Salad,Snack,138,5.9,14.1,6.4,Monday
+122,Caprese Salad,Snack,237,8.6,25.8,11.0,Monday
+123,Veggie Burger,Snack,238,7.1,26.4,11.6,Monday
+124,Stuffed Mushrooms,Snack,284,7.5,34.0,13.1,Monday
+125,Rice and Beans,Snack,156,6.3,18.2,6.4,Monday
+126,Fruit Parfait,Snack,175,6.1,21.6,7.1,Monday
+127,Avocado Sushi,Snack,122,3.2,14.1,5.9,Monday
+128,Tofu Scramble,Snack,281,13.5,34.5,9.9,Monday
+129,Prawn Stir Fry,Snack,182,5.4,20.3,8.8,Monday
+130,Tomato Soup,Snack,198,8.9,22.2,8.2,Monday
+131,Fruit Salad,Snack,195,5.8,23.9,8.5,Monday
+132,Caprese Salad,Snack,200,5.3,20.2,10.9,Monday
+133,Veggie Burger,Snack,121,3.1,13.9,5.9,Monday
+134,Stuffed Mushrooms,Snack,155,7.1,18.7,5.8,Monday
+135,Rice and Beans,Snack,277,7.0,33.4,12.8,Monday
+136,Fruit Parfait,Snack,290,10.6,35.7,11.6,Monday
+137,Avocado Sushi,Snack,176,8.7,19.6,7.0,Monday
+138,Tofu Scramble,Snack,152,6.6,16.0,6.8,Monday
+139,Prawn Stir Fry,Snack,219,6.2,22.2,11.7,Monday
+140,Tomato Soup,Snack,157,5.0,18.4,7.0,Monday
+141,Fruit Salad,Snack,243,8.4,24.5,12.4,Monday
+142,Caprese Salad,Snack,241,11.0,24.2,11.1,Monday
+143,Veggie Burger,Snack,252,6.8,30.2,11.6,Monday
+144,Stuffed Mushrooms,Snack,164,4.1,18.5,8.2,Monday
+145,Rice and Beans,Snack,153,4.9,16.0,7.7,Monday
+146,Fruit Parfait,Snack,178,5.8,21.3,7.7,Monday
+147,Avocado Sushi,Snack,164,6.2,17.5,7.7,Monday
+148,Tofu Scramble,Snack,149,6.7,15.4,6.7,Monday
+149,Prawn Stir Fry,Snack,109,4.1,11.1,5.4,Monday
+150,Tomato Soup,Snack,154,7.0,16.9,6.5,Monday
+151,Fruit Salad,Snack,116,5.5,12.6,4.8,Monday
+152,Caprese Salad,Snack,234,6.3,25.7,11.8,Monday
+153,Veggie Burger,Snack,169,8.3,20.3,6.1,Monday
+154,Stuffed Mushrooms,Snack,262,10.8,31.1,10.5,Monday
+155,Rice and Beans,Snack,163,6.5,16.6,7.8,Monday
+156,Fruit Parfait,Snack,243,6.3,29.5,11.1,Monday
+157,Avocado Sushi,Snack,156,5.5,17.2,7.2,Monday
+158,Tofu Scramble,Snack,211,9.7,25.5,7.8,Monday
+159,Prawn Stir Fry,Snack,135,4.8,15.3,6.1,Monday
+160,Tomato Soup,Snack,265,10.0,27.4,12.8,Monday
+161,Avocado Toast,Breakfast,311,13.4,37.5,11.9,Tuesday
+162,Greek Yogurt with Berries,Breakfast,492,19.3,59.6,19.6,Tuesday
+163,Smoothie Bowl,Breakfast,494,12.6,55.5,24.6,Tuesday
+164,Oatmeal with Fruits,Breakfast,390,16.6,44.4,16.2,Tuesday
+165,Protein Pancakes,Breakfast,375,13.2,43.2,16.6,Tuesday
+166,Egg Benedict,Breakfast,337,14.1,38.3,14.2,Tuesday
+167,Spinach Omelette,Breakfast,419,20.3,49.7,15.4,Tuesday
+168,Quiche Lorraine,Breakfast,326,9.5,38.4,14.9,Tuesday
+169,Egg Salad,Breakfast,446,22.2,50.7,17.2,Tuesday
+170,Mango Smoothie,Breakfast,430,15.5,45.2,20.8,Tuesday
+171,Avocado Toast,Breakfast,404,19.4,45.8,15.9,Tuesday
+172,Greek Yogurt with Berries,Breakfast,316,11.3,35.1,14.5,Tuesday
+173,Smoothie Bowl,Breakfast,474,13.1,47.4,25.8,Tuesday
+174,Oatmeal with Fruits,Breakfast,399,17.4,42.3,17.8,Tuesday
+175,Protein Pancakes,Breakfast,333,9.1,39.0,15.6,Tuesday
+176,Egg Benedict,Breakfast,371,14.9,39.6,17.0,Tuesday
+177,Spinach Omelette,Breakfast,453,20.4,52.1,18.1,Tuesday
+178,Quiche Lorraine,Breakfast,374,17.4,44.2,14.2,Tuesday
+179,Egg Salad,Breakfast,309,12.0,35.0,13.4,Tuesday
+180,Mango Smoothie,Breakfast,405,17.6,46.3,16.6,Tuesday
+181,Avocado Toast,Breakfast,304,12.1,34.7,13.0,Tuesday
+182,Greek Yogurt with Berries,Breakfast,357,17.5,41.6,13.4,Tuesday
+183,Smoothie Bowl,Breakfast,338,10.3,39.1,15.6,Tuesday
+184,Oatmeal with Fruits,Breakfast,314,10.4,35.1,14.7,Tuesday
+185,Protein Pancakes,Breakfast,452,22.4,55.5,15.6,Tuesday
+186,Egg Benedict,Breakfast,477,22.0,55.6,18.5,Tuesday
+187,Spinach Omelette,Breakfast,347,8.8,40.4,16.7,Tuesday
+188,Quiche Lorraine,Breakfast,435,12.2,48.8,21.2,Tuesday
+189,Egg Salad,Breakfast,351,12.4,38.3,16.5,Tuesday
+190,Mango Smoothie,Breakfast,483,13.8,55.0,23.1,Tuesday
+191,Avocado Toast,Breakfast,350,11.7,35.8,17.8,Tuesday
+192,Greek Yogurt with Berries,Breakfast,301,12.1,35.2,12.4,Tuesday
+193,Smoothie Bowl,Breakfast,321,9.9,32.5,16.8,Tuesday
+194,Oatmeal with Fruits,Breakfast,406,15.9,49.1,16.2,Tuesday
+195,Protein Pancakes,Breakfast,319,15.4,37.5,11.9,Tuesday
+196,Egg Benedict,Breakfast,418,10.7,43.9,22.2,Tuesday
+197,Spinach Omelette,Breakfast,368,17.7,40.3,15.1,Tuesday
+198,Quiche Lorraine,Breakfast,317,9.3,32.5,16.6,Tuesday
+199,Egg Salad,Breakfast,315,13.3,32.2,14.8,Tuesday
+200,Mango Smoothie,Breakfast,325,12.4,33.4,15.8,Tuesday
+201,Grilled Chicken Salad,Lunch,694,30.7,78.2,28.7,Tuesday
+202,Beef Stir Fry,Lunch,640,21.5,73.7,28.8,Tuesday
+203,Turkey Sandwich,Lunch,627,28.5,78.1,22.3,Tuesday
+204,Chicken Caesar Wrap,Lunch,708,35.1,88.3,23.8,Tuesday
+205,Vegetable Biryani,Lunch,718,32.7,77.5,30.8,Tuesday
+206,Sushi Rolls,Lunch,669,27.2,79.3,27.0,Tuesday
+207,Chicken Alfredo,Lunch,627,20.7,65.4,31.4,Tuesday
+208,Beef Burrito,Lunch,756,25.1,76.0,39.1,Tuesday
+209,Shrimp Tacos,Lunch,571,23.4,68.7,22.5,Tuesday
+210,Chicken Quesadilla,Lunch,527,21.8,59.3,22.5,Tuesday
+211,Grilled Chicken Salad,Lunch,745,35.0,87.7,28.2,Tuesday
+212,Beef Stir Fry,Lunch,551,20.3,55.8,27.4,Tuesday
+213,Turkey Sandwich,Lunch,687,18.8,78.5,33.1,Tuesday
+214,Chicken Caesar Wrap,Lunch,654,23.4,74.8,29.0,Tuesday
+215,Vegetable Biryani,Lunch,756,20.4,78.7,40.0,Tuesday
+216,Sushi Rolls,Lunch,609,15.7,67.7,30.6,Tuesday
+217,Chicken Alfredo,Lunch,542,13.6,66.1,24.8,Tuesday
+218,Beef Burrito,Lunch,699,27.4,70.6,34.1,Tuesday
+219,Shrimp Tacos,Lunch,588,18.3,69.8,26.2,Tuesday
+220,Chicken Quesadilla,Lunch,788,34.1,81.6,36.1,Tuesday
+221,Grilled Chicken Salad,Lunch,522,24.2,56.9,22.0,Tuesday
+222,Beef Stir Fry,Lunch,566,19.7,66.3,24.7,Tuesday
+223,Turkey Sandwich,Lunch,629,19.8,64.6,32.4,Tuesday
+224,Chicken Caesar Wrap,Lunch,729,25.8,86.0,31.3,Tuesday
+225,Vegetable Biryani,Lunch,569,18.7,69.8,23.9,Tuesday
+226,Sushi Rolls,Lunch,713,19.1,84.4,33.2,Tuesday
+227,Chicken Alfredo,Lunch,652,18.8,79.9,28.6,Tuesday
+228,Beef Burrito,Lunch,606,17.5,63.8,31.2,Tuesday
+229,Shrimp Tacos,Lunch,755,31.4,92.8,28.7,Tuesday
+230,Chicken Quesadilla,Lunch,690,20.9,81.2,31.3,Tuesday
+231,Grilled Chicken Salad,Lunch,724,36.0,81.2,28.4,Tuesday
+232,Beef Stir Fry,Lunch,616,22.7,62.1,30.8,Tuesday
+233,Turkey Sandwich,Lunch,505,14.0,51.7,26.9,Tuesday
+234,Chicken Caesar Wrap,Lunch,712,22.5,88.8,29.6,Tuesday
+235,Vegetable Biryani,Lunch,598,18.3,74.2,25.3,Tuesday
+236,Sushi Rolls,Lunch,686,32.9,71.4,29.9,Tuesday
+237,Chicken Alfredo,Lunch,623,28.0,74.9,23.5,Tuesday
+238,Beef Burrito,Lunch,712,22.0,74.6,36.2,Tuesday
+239,Shrimp Tacos,Lunch,564,18.1,66.6,25.0,Tuesday
+240,Chicken Quesadilla,Lunch,526,21.4,56.8,23.7,Tuesday
+241,Salmon with Asparagus,Dinner,671,32.5,79.6,24.7,Tuesday
+242,Fish Curry,Dinner,507,15.4,59.2,23.2,Tuesday
+243,Steak with Vegetables,Dinner,653,23.6,70.1,30.9,Tuesday
+244,Chicken Tikka Masala,Dinner,552,19.6,65.4,23.6,Tuesday
+245,Vegetable Lasagna,Dinner,695,28.9,72.6,32.1,Tuesday
+246,Beef Stew,Dinner,658,26.1,67.3,31.6,Tuesday
+247,Pasta Bolognese,Dinner,549,20.3,65.3,23.0,Tuesday
+248,Grilled Fish,Dinner,579,15.9,59.2,31.0,Tuesday
+249,Stuffed Bell Peppers,Dinner,561,19.4,68.0,23.5,Tuesday
+250,Seafood Paella,Dinner,501,18.0,57.3,22.2,Tuesday
+251,Salmon with Asparagus,Dinner,506,19.3,59.7,21.1,Tuesday
+252,Fish Curry,Dinner,659,18.4,75.3,31.6,Tuesday
+253,Steak with Vegetables,Dinner,584,14.7,61.9,30.8,Tuesday
+254,Chicken Tikka Masala,Dinner,563,26.6,64.3,22.2,Tuesday
+255,Vegetable Lasagna,Dinner,528,24.8,62.7,19.8,Tuesday
+256,Beef Stew,Dinner,688,32.0,69.1,31.5,Tuesday
+257,Pasta Bolognese,Dinner,542,19.7,57.3,26.0,Tuesday
+258,Grilled Fish,Dinner,522,14.6,61.7,24.1,Tuesday
+259,Stuffed Bell Peppers,Dinner,516,13.4,57.5,25.8,Tuesday
+260,Seafood Paella,Dinner,616,17.9,66.5,30.9,Tuesday
+261,Salmon with Asparagus,Dinner,526,18.0,53.2,26.8,Tuesday
+262,Fish Curry,Dinner,688,30.6,73.2,30.3,Tuesday
+263,Steak with Vegetables,Dinner,572,18.8,64.7,26.4,Tuesday
+264,Chicken Tikka Masala,Dinner,671,25.7,81.4,27.0,Tuesday
+265,Vegetable Lasagna,Dinner,569,14.3,64.3,28.3,Tuesday
+266,Beef Stew,Dinner,667,26.6,71.9,30.3,Tuesday
+267,Pasta Bolognese,Dinner,656,18.7,76.2,30.7,Tuesday
+268,Grilled Fish,Dinner,649,19.2,77.3,29.2,Tuesday
+269,Stuffed Bell Peppers,Dinner,560,27.3,58.2,24.2,Tuesday
+270,Seafood Paella,Dinner,636,20.6,77.8,26.9,Tuesday
+271,Salmon with Asparagus,Dinner,700,19.5,76.5,35.1,Tuesday
+272,Fish Curry,Dinner,640,19.3,74.2,29.6,Tuesday
+273,Steak with Vegetables,Dinner,681,33.4,76.2,27.0,Tuesday
+274,Chicken Tikka Masala,Dinner,507,17.5,56.3,23.5,Tuesday
+275,Vegetable Lasagna,Dinner,604,25.4,67.1,26.0,Tuesday
+276,Beef Stew,Dinner,693,26.9,73.3,32.5,Tuesday
+277,Pasta Bolognese,Dinner,619,16.6,68.8,30.8,Tuesday
+278,Grilled Fish,Dinner,573,24.8,61.4,25.4,Tuesday
+279,Stuffed Bell Peppers,Dinner,696,28.2,82.6,28.1,Tuesday
+280,Seafood Paella,Dinner,586,23.8,61.7,27.1,Tuesday
+281,Fruit Salad,Snack,238,9.3,26.5,10.5,Tuesday
+282,Caprese Salad,Snack,273,11.6,27.7,12.9,Tuesday
+283,Veggie Burger,Snack,183,5.2,18.8,9.7,Tuesday
+284,Stuffed Mushrooms,Snack,100,4.1,10.9,4.4,Tuesday
+285,Rice and Beans,Snack,272,13.2,31.8,10.2,Tuesday
+286,Fruit Parfait,Snack,121,5.7,14.6,4.4,Tuesday
+287,Avocado Sushi,Snack,166,7.2,17.7,7.4,Tuesday
+288,Tofu Scramble,Snack,177,8.5,20.2,6.9,Tuesday
+289,Prawn Stir Fry,Snack,258,10.6,30.8,10.3,Tuesday
+290,Tomato Soup,Snack,210,5.8,22.0,11.0,Tuesday
+291,Fruit Salad,Snack,148,5.7,17.2,6.3,Tuesday
+292,Caprese Salad,Snack,182,7.1,21.3,7.6,Tuesday
+293,Veggie Burger,Snack,105,5.2,11.3,4.3,Tuesday
+294,Stuffed Mushrooms,Snack,247,8.7,26.1,12.0,Tuesday
+295,Rice and Beans,Snack,202,6.3,23.4,9.2,Tuesday
+296,Fruit Parfait,Snack,102,4.4,11.8,4.1,Tuesday
+297,Avocado Sushi,Snack,169,7.5,19.0,7.0,Tuesday
+298,Tofu Scramble,Snack,227,7.1,26.3,10.4,Tuesday
+299,Prawn Stir Fry,Snack,224,10.4,23.5,9.8,Tuesday
+300,Tomato Soup,Snack,282,14.0,33.7,10.1,Tuesday
+301,Fruit Salad,Snack,112,4.6,13.4,4.4,Tuesday
+302,Caprese Salad,Snack,274,10.2,31.0,12.1,Tuesday
+303,Veggie Burger,Snack,187,6.4,21.5,8.4,Tuesday
+304,Stuffed Mushrooms,Snack,135,4.2,16.4,5.8,Tuesday
+305,Rice and Beans,Snack,296,8.5,32.2,14.8,Tuesday
+306,Fruit Parfait,Snack,264,10.9,32.8,9.9,Tuesday
+307,Avocado Sushi,Snack,183,9.1,21.1,6.9,Tuesday
+308,Tofu Scramble,Snack,221,8.1,27.6,8.7,Tuesday
+309,Prawn Stir Fry,Snack,136,5.1,13.7,6.8,Tuesday
+310,Tomato Soup,Snack,214,10.5,26.7,7.2,Tuesday
+311,Fruit Salad,Snack,103,3.8,11.1,4.8,Tuesday
+312,Caprese Salad,Snack,121,4.0,14.8,5.1,Tuesday
+313,Veggie Burger,Snack,293,8.4,33.2,14.1,Tuesday
+314,Stuffed Mushrooms,Snack,221,10.4,23.4,9.5,Tuesday
+315,Rice and Beans,Snack,261,10.1,32.6,10.0,Tuesday
+316,Fruit Parfait,Snack,140,6.3,15.6,5.8,Tuesday
+317,Avocado Sushi,Snack,210,6.6,24.2,9.6,Tuesday
+318,Tofu Scramble,Snack,195,6.0,21.6,9.4,Tuesday
+319,Prawn Stir Fry,Snack,299,14.1,30.8,13.3,Tuesday
+320,Tomato Soup,Snack,248,8.7,30.7,10.0,Tuesday
+321,Avocado Toast,Breakfast,411,16.7,42.5,19.4,Wednesday
+322,Greek Yogurt with Berries,Breakfast,480,13.6,56.0,22.4,Wednesday
+323,Smoothie Bowl,Breakfast,420,18.7,46.1,17.9,Wednesday
+324,Oatmeal with Fruits,Breakfast,327,8.6,39.7,14.9,Wednesday
+325,Protein Pancakes,Breakfast,388,11.6,46.9,17.1,Wednesday
+326,Egg Benedict,Breakfast,307,11.4,37.4,12.4,Wednesday
+327,Spinach Omelette,Breakfast,344,12.1,41.6,14.4,Wednesday
+328,Quiche Lorraine,Breakfast,464,14.6,53.4,21.3,Wednesday
+329,Egg Salad,Breakfast,339,15.2,40.3,13.0,Wednesday
+330,Mango Smoothie,Breakfast,321,10.7,32.7,16.4,Wednesday
+331,Avocado Toast,Breakfast,476,23.6,55.8,17.6,Wednesday
+332,Greek Yogurt with Berries,Breakfast,360,13.0,38.6,17.1,Wednesday
+333,Smoothie Bowl,Breakfast,488,24.2,50.6,21.0,Wednesday
+334,Oatmeal with Fruits,Breakfast,343,15.0,36.7,15.1,Wednesday
+335,Protein Pancakes,Breakfast,446,12.1,45.1,24.1,Wednesday
+336,Egg Benedict,Breakfast,312,9.9,31.7,16.2,Wednesday
+337,Spinach Omelette,Breakfast,438,15.7,54.5,17.5,Wednesday
+338,Quiche Lorraine,Breakfast,335,15.7,41.3,11.9,Wednesday
+339,Egg Salad,Breakfast,422,14.7,51.3,17.6,Wednesday
+340,Mango Smoothie,Breakfast,395,16.6,42.7,17.5,Wednesday
+341,Avocado Toast,Breakfast,337,14.6,41.6,12.5,Wednesday
+342,Greek Yogurt with Berries,Breakfast,420,18.3,45.6,18.3,Wednesday
+343,Smoothie Bowl,Breakfast,337,11.9,35.6,16.3,Wednesday
+344,Oatmeal with Fruits,Breakfast,319,15.0,35.8,12.9,Wednesday
+345,Protein Pancakes,Breakfast,332,9.9,34.4,17.2,Wednesday
+346,Egg Benedict,Breakfast,455,14.3,47.5,23.1,Wednesday
+347,Spinach Omelette,Breakfast,416,11.4,46.8,20.4,Wednesday
+348,Quiche Lorraine,Breakfast,404,19.2,41.9,17.7,Wednesday
+349,Egg Salad,Breakfast,404,18.0,43.8,17.4,Wednesday
+350,Mango Smoothie,Breakfast,314,15.1,33.3,13.4,Wednesday
+351,Avocado Toast,Breakfast,343,11.6,36.2,16.9,Wednesday
+352,Greek Yogurt with Berries,Breakfast,452,20.5,52.9,17.6,Wednesday
+353,Smoothie Bowl,Breakfast,396,12.8,43.0,19.2,Wednesday
+354,Oatmeal with Fruits,Breakfast,403,10.8,46.7,19.2,Wednesday
+355,Protein Pancakes,Breakfast,410,13.3,42.4,20.8,Wednesday
+356,Egg Benedict,Breakfast,480,19.6,52.3,21.4,Wednesday
+357,Spinach Omelette,Breakfast,461,15.9,55.5,19.5,Wednesday
+358,Quiche Lorraine,Breakfast,318,10.5,35.4,14.9,Wednesday
+359,Egg Salad,Breakfast,327,15.2,34.1,14.4,Wednesday
+360,Mango Smoothie,Breakfast,355,9.8,43.4,15.8,Wednesday
+361,Grilled Chicken Salad,Lunch,694,25.3,84.9,28.1,Wednesday
+362,Beef Stir Fry,Lunch,524,25.9,54.5,22.5,Wednesday
+363,Turkey Sandwich,Lunch,772,29.7,87.3,33.8,Wednesday
+364,Chicken Caesar Wrap,Lunch,509,16.8,61.8,21.6,Wednesday
+365,Vegetable Biryani,Lunch,755,22.4,77.5,39.5,Wednesday
+366,Sushi Rolls,Lunch,736,35.7,88.3,26.7,Wednesday
+367,Chicken Alfredo,Lunch,740,28.5,87.3,30.8,Wednesday
+368,Beef Burrito,Lunch,552,18.6,62.4,25.3,Wednesday
+369,Shrimp Tacos,Lunch,709,21.0,84.0,32.1,Wednesday
+370,Chicken Quesadilla,Lunch,775,30.6,80.9,36.6,Wednesday
+371,Grilled Chicken Salad,Lunch,620,17.9,73.6,28.2,Wednesday
+372,Beef Stir Fry,Lunch,597,19.9,62.0,29.9,Wednesday
+373,Turkey Sandwich,Lunch,544,25.1,61.6,21.9,Wednesday
+374,Chicken Caesar Wrap,Lunch,771,36.1,81.7,33.3,Wednesday
+375,Vegetable Biryani,Lunch,593,25.2,60.5,27.8,Wednesday
+376,Sushi Rolls,Lunch,673,32.2,74.7,27.3,Wednesday
+377,Chicken Alfredo,Lunch,758,23.5,83.9,36.5,Wednesday
+378,Beef Burrito,Lunch,528,14.4,58.1,26.4,Wednesday
+379,Shrimp Tacos,Lunch,532,19.7,56.1,25.4,Wednesday
+380,Chicken Quesadilla,Lunch,637,28.4,65.1,29.2,Wednesday
+381,Grilled Chicken Salad,Lunch,620,24.7,64.6,29.2,Wednesday
+382,Beef Stir Fry,Lunch,610,22.1,65.9,28.7,Wednesday
+383,Turkey Sandwich,Lunch,555,21.7,58.8,25.9,Wednesday
+384,Chicken Caesar Wrap,Lunch,678,27.2,75.8,29.6,Wednesday
+385,Vegetable Biryani,Lunch,789,28.9,87.2,36.1,Wednesday
+386,Sushi Rolls,Lunch,635,19.5,70.2,30.7,Wednesday
+387,Chicken Alfredo,Lunch,597,28.6,61.4,26.3,Wednesday
+388,Beef Burrito,Lunch,661,21.8,71.6,31.9,Wednesday
+389,Shrimp Tacos,Lunch,748,19.3,90.1,34.5,Wednesday
+390,Chicken Quesadilla,Lunch,616,17.4,73.8,27.9,Wednesday
+391,Grilled Chicken Salad,Lunch,630,30.2,71.2,24.9,Wednesday
+392,Beef Stir Fry,Lunch,574,22.0,69.7,23.0,Wednesday
+393,Turkey Sandwich,Lunch,562,27.2,62.1,22.8,Wednesday
+394,Chicken Caesar Wrap,Lunch,697,34.1,69.8,31.3,Wednesday
+395,Vegetable Biryani,Lunch,727,24.1,86.8,31.5,Wednesday
+396,Sushi Rolls,Lunch,660,19.5,67.0,34.9,Wednesday
+397,Chicken Alfredo,Lunch,595,18.8,63.4,29.6,Wednesday
+398,Beef Burrito,Lunch,573,26.8,58.0,26.0,Wednesday
+399,Shrimp Tacos,Lunch,663,27.1,67.0,31.8,Wednesday
+400,Chicken Quesadilla,Lunch,741,27.3,90.8,29.8,Wednesday
+401,Salmon with Asparagus,Dinner,575,21.3,69.8,23.4,Wednesday
+402,Fish Curry,Dinner,680,26.7,84.3,26.2,Wednesday
+403,Steak with Vegetables,Dinner,618,19.4,71.0,28.5,Wednesday
+404,Chicken Tikka Masala,Dinner,551,25.8,59.4,23.4,Wednesday
+405,Vegetable Lasagna,Dinner,573,20.9,61.3,27.1,Wednesday
+406,Beef Stew,Dinner,534,18.5,65.6,22.0,Wednesday
+407,Pasta Bolognese,Dinner,627,31.2,69.8,24.8,Wednesday
+408,Grilled Fish,Dinner,634,16.2,78.7,28.3,Wednesday
+409,Stuffed Bell Peppers,Dinner,615,27.3,64.7,27.4,Wednesday
+410,Seafood Paella,Dinner,645,31.3,80.4,22.0,Wednesday
+411,Salmon with Asparagus,Dinner,535,22.3,57.9,23.8,Wednesday
+412,Fish Curry,Dinner,692,29.7,73.9,30.8,Wednesday
+413,Steak with Vegetables,Dinner,526,15.6,60.9,24.4,Wednesday
+414,Chicken Tikka Masala,Dinner,680,28.5,75.3,29.4,Wednesday
+415,Vegetable Lasagna,Dinner,525,14.0,60.5,25.2,Wednesday
+416,Beef Stew,Dinner,556,23.5,67.7,21.2,Wednesday
+417,Pasta Bolognese,Dinner,569,16.5,66.2,26.5,Wednesday
+418,Grilled Fish,Dinner,508,17.7,55.9,23.7,Wednesday
+419,Stuffed Bell Peppers,Dinner,530,17.6,64.2,22.5,Wednesday
+420,Seafood Paella,Dinner,573,28.0,61.7,23.8,Wednesday
+421,Salmon with Asparagus,Dinner,557,23.1,56.8,26.4,Wednesday
+422,Fish Curry,Dinner,663,26.0,77.4,27.7,Wednesday
+423,Steak with Vegetables,Dinner,551,14.3,68.1,24.6,Wednesday
+424,Chicken Tikka Masala,Dinner,652,29.1,66.1,30.1,Wednesday
+425,Vegetable Lasagna,Dinner,577,17.2,61.0,29.4,Wednesday
+426,Beef Stew,Dinner,556,22.1,66.3,22.5,Wednesday
+427,Pasta Bolognese,Dinner,600,15.3,73.2,27.3,Wednesday
+428,Grilled Fish,Dinner,534,14.9,64.1,24.2,Wednesday
+429,Stuffed Bell Peppers,Dinner,527,19.4,62.3,22.2,Wednesday
+430,Seafood Paella,Dinner,694,33.3,86.2,24.0,Wednesday
+431,Salmon with Asparagus,Dinner,538,18.2,58.6,25.6,Wednesday
+432,Fish Curry,Dinner,681,20.9,74.2,33.4,Wednesday
+433,Steak with Vegetables,Dinner,612,27.6,74.5,22.6,Wednesday
+434,Chicken Tikka Masala,Dinner,686,23.7,76.7,31.6,Wednesday
+435,Vegetable Lasagna,Dinner,608,22.5,62.4,29.8,Wednesday
+436,Beef Stew,Dinner,573,22.6,63.4,25.4,Wednesday
+437,Pasta Bolognese,Dinner,551,24.2,55.9,25.6,Wednesday
+438,Grilled Fish,Dinner,604,16.1,67.8,29.8,Wednesday
+439,Stuffed Bell Peppers,Dinner,630,24.9,72.4,26.8,Wednesday
+440,Seafood Paella,Dinner,694,20.0,76.8,34.1,Wednesday
+441,Fruit Salad,Snack,139,6.1,14.7,6.2,Wednesday
+442,Caprese Salad,Snack,191,8.4,22.9,7.3,Wednesday
+443,Veggie Burger,Snack,100,3.6,11.6,4.4,Wednesday
+444,Stuffed Mushrooms,Snack,257,9.4,26.9,12.4,Wednesday
+445,Rice and Beans,Snack,207,10.2,25.6,7.1,Wednesday
+446,Fruit Parfait,Snack,211,8.6,21.7,10.0,Wednesday
+447,Avocado Sushi,Snack,294,13.2,29.5,13.7,Wednesday
+448,Tofu Scramble,Snack,221,11.0,25.8,8.2,Wednesday
+449,Prawn Stir Fry,Snack,157,4.4,16.6,8.1,Wednesday
+450,Tomato Soup,Snack,240,7.9,24.0,12.5,Wednesday
+451,Fruit Salad,Snack,138,4.0,16.8,6.1,Wednesday
+452,Caprese Salad,Snack,261,10.6,27.0,12.3,Wednesday
+453,Veggie Burger,Snack,213,6.8,22.3,10.7,Wednesday
+454,Stuffed Mushrooms,Snack,259,9.5,27.6,12.3,Wednesday
+455,Rice and Beans,Snack,268,10.2,31.1,11.4,Wednesday
+456,Fruit Parfait,Snack,206,10.1,23.6,7.9,Wednesday
+457,Avocado Sushi,Snack,217,9.4,24.3,9.1,Wednesday
+458,Tofu Scramble,Snack,129,6.1,13.6,5.6,Wednesday
+459,Prawn Stir Fry,Snack,143,4.2,15.7,7.0,Wednesday
+460,Tomato Soup,Snack,114,3.3,13.5,5.2,Wednesday
+461,Fruit Salad,Snack,195,8.7,22.7,7.7,Wednesday
+462,Caprese Salad,Snack,165,4.2,16.6,9.1,Wednesday
+463,Veggie Burger,Snack,249,11.0,30.5,9.2,Wednesday
+464,Stuffed Mushrooms,Snack,199,7.2,23.5,8.5,Wednesday
+465,Rice and Beans,Snack,245,10.3,28.8,9.8,Wednesday
+466,Fruit Parfait,Snack,243,11.6,26.0,10.3,Wednesday
+467,Avocado Sushi,Snack,186,4.7,21.1,9.2,Wednesday
+468,Tofu Scramble,Snack,152,5.2,17.2,6.9,Wednesday
+469,Prawn Stir Fry,Snack,197,6.4,21.4,9.5,Wednesday
+470,Tomato Soup,Snack,208,7.0,25.4,8.7,Wednesday
+471,Fruit Salad,Snack,188,6.7,22.0,8.1,Wednesday
+472,Caprese Salad,Snack,247,10.7,30.6,9.1,Wednesday
+473,Veggie Burger,Snack,113,3.4,13.3,5.1,Wednesday
+474,Stuffed Mushrooms,Snack,153,4.3,17.7,7.2,Wednesday
+475,Rice and Beans,Snack,230,9.7,25.9,9.7,Wednesday
+476,Fruit Parfait,Snack,147,5.4,15.8,6.9,Wednesday
+477,Avocado Sushi,Snack,264,11.9,26.6,12.2,Wednesday
+478,Tofu Scramble,Snack,229,10.2,23.5,10.5,Wednesday
+479,Prawn Stir Fry,Snack,180,5.6,18.6,9.2,Wednesday
+480,Tomato Soup,Snack,274,7.2,33.0,12.6,Wednesday
+481,Avocado Toast,Breakfast,305,8.4,36.4,14.0,Thursday
+482,Greek Yogurt with Berries,Breakfast,416,12.5,50.7,18.1,Thursday
+483,Smoothie Bowl,Breakfast,317,12.0,36.6,13.6,Thursday
+484,Oatmeal with Fruits,Breakfast,378,16.7,46.3,14.0,Thursday
+485,Protein Pancakes,Breakfast,325,9.6,33.5,17.0,Thursday
+486,Egg Benedict,Breakfast,385,10.3,39.5,20.6,Thursday
+487,Spinach Omelette,Breakfast,498,16.9,58.4,21.9,Thursday
+488,Quiche Lorraine,Breakfast,344,10.6,37.9,16.7,Thursday
+489,Egg Salad,Breakfast,495,12.8,58.8,23.2,Thursday
+490,Mango Smoothie,Breakfast,445,16.2,50.2,19.9,Thursday
+491,Avocado Toast,Breakfast,372,17.8,46.0,13.0,Thursday
+492,Greek Yogurt with Berries,Breakfast,468,22.5,56.8,16.8,Thursday
+493,Smoothie Bowl,Breakfast,318,15.5,34.5,13.1,Thursday
+494,Oatmeal with Fruits,Breakfast,323,11.4,33.0,16.2,Thursday
+495,Protein Pancakes,Breakfast,357,14.1,41.3,15.0,Thursday
+496,Egg Benedict,Breakfast,394,14.6,47.8,16.0,Thursday
+497,Spinach Omelette,Breakfast,446,22.2,47.0,18.8,Thursday
+498,Quiche Lorraine,Breakfast,397,12.3,42.5,19.8,Thursday
+499,Egg Salad,Breakfast,410,18.5,42.2,18.6,Thursday
+500,Mango Smoothie,Breakfast,331,11.1,38.1,14.9,Thursday
+501,Avocado Toast,Breakfast,418,17.8,51.8,15.5,Thursday
+502,Greek Yogurt with Berries,Breakfast,417,19.8,47.6,16.4,Thursday
+503,Smoothie Bowl,Breakfast,404,13.8,48.1,17.4,Thursday
+504,Oatmeal with Fruits,Breakfast,371,10.6,38.8,19.3,Thursday
+505,Protein Pancakes,Breakfast,450,17.3,55.1,17.8,Thursday
+506,Egg Benedict,Breakfast,319,8.6,37.5,15.0,Thursday
+507,Spinach Omelette,Breakfast,376,10.8,44.1,17.4,Thursday
+508,Quiche Lorraine,Breakfast,438,15.9,45.9,21.2,Thursday
+509,Egg Salad,Breakfast,387,19.1,40.1,16.7,Thursday
+510,Mango Smoothie,Breakfast,304,10.3,33.7,14.2,Thursday
+511,Avocado Toast,Breakfast,362,12.0,37.5,18.2,Thursday
+512,Greek Yogurt with Berries,Breakfast,405,13.8,49.3,17.0,Thursday
+513,Smoothie Bowl,Breakfast,466,13.8,54.4,21.5,Thursday
+514,Oatmeal with Fruits,Breakfast,425,17.8,50.8,16.7,Thursday
+515,Protein Pancakes,Breakfast,343,10.8,42.0,14.6,Thursday
+516,Egg Benedict,Breakfast,336,10.2,34.2,17.6,Thursday
+517,Spinach Omelette,Breakfast,495,19.7,54.9,21.8,Thursday
+518,Quiche Lorraine,Breakfast,453,20.5,52.4,17.9,Thursday
+519,Egg Salad,Breakfast,337,12.2,36.8,15.7,Thursday
+520,Mango Smoothie,Breakfast,416,13.4,42.9,21.2,Thursday
+521,Grilled Chicken Salad,Lunch,654,18.2,77.6,30.1,Thursday
+522,Beef Stir Fry,Lunch,512,22.5,52.2,23.7,Thursday
+523,Turkey Sandwich,Lunch,527,18.9,58.9,24.0,Thursday
+524,Chicken Caesar Wrap,Lunch,663,17.0,78.8,31.1,Thursday
+525,Vegetable Biryani,Lunch,623,24.9,72.9,25.8,Thursday
+526,Sushi Rolls,Lunch,709,31.1,84.3,27.5,Thursday
+527,Chicken Alfredo,Lunch,759,33.4,93.5,27.9,Thursday
+528,Beef Burrito,Lunch,603,20.0,67.8,28.0,Thursday
+529,Shrimp Tacos,Lunch,743,24.0,85.6,33.8,Thursday
+530,Chicken Quesadilla,Lunch,720,24.8,72.9,36.6,Thursday
+531,Grilled Chicken Salad,Lunch,779,37.4,92.1,29.0,Thursday
+532,Beef Stir Fry,Lunch,564,19.5,58.6,28.0,Thursday
+533,Turkey Sandwich,Lunch,515,21.0,58.2,22.0,Thursday
+534,Chicken Caesar Wrap,Lunch,642,19.3,70.5,31.4,Thursday
+535,Vegetable Biryani,Lunch,545,17.7,62.5,24.9,Thursday
+536,Sushi Rolls,Lunch,502,20.0,60.3,20.1,Thursday
+537,Chicken Alfredo,Lunch,512,21.7,60.3,20.4,Thursday
+538,Beef Burrito,Lunch,600,15.8,70.7,28.2,Thursday
+539,Shrimp Tacos,Lunch,624,30.0,69.5,25.1,Thursday
+540,Chicken Quesadilla,Lunch,524,19.4,65.5,20.5,Thursday
+541,Grilled Chicken Salad,Lunch,675,24.7,70.4,32.7,Thursday
+542,Beef Stir Fry,Lunch,585,18.8,62.7,28.8,Thursday
+543,Turkey Sandwich,Lunch,598,22.5,59.8,29.9,Thursday
+544,Chicken Caesar Wrap,Lunch,505,22.5,60.6,19.2,Thursday
+545,Vegetable Biryani,Lunch,581,28.1,59.0,25.8,Thursday
+546,Sushi Rolls,Lunch,537,15.6,57.9,27.0,Thursday
+547,Chicken Alfredo,Lunch,504,19.0,57.6,22.0,Thursday
+548,Beef Burrito,Lunch,691,26.2,85.7,27.0,Thursday
+549,Shrimp Tacos,Lunch,614,21.0,65.3,29.9,Thursday
+550,Chicken Quesadilla,Lunch,522,24.1,53.0,23.7,Thursday
+551,Grilled Chicken Salad,Lunch,562,24.5,68.9,20.9,Thursday
+552,Beef Stir Fry,Lunch,669,27.6,82.5,25.4,Thursday
+553,Turkey Sandwich,Lunch,708,30.6,79.9,29.6,Thursday
+554,Chicken Caesar Wrap,Lunch,581,26.1,62.3,25.3,Thursday
+555,Vegetable Biryani,Lunch,768,28.0,78.5,38.0,Thursday
+556,Sushi Rolls,Lunch,647,22.2,75.4,28.5,Thursday
+557,Chicken Alfredo,Lunch,756,33.5,93.8,27.4,Thursday
+558,Beef Burrito,Lunch,581,16.2,67.9,27.2,Thursday
+559,Shrimp Tacos,Lunch,522,15.4,53.3,27.5,Thursday
+560,Chicken Quesadilla,Lunch,667,17.0,76.8,32.4,Thursday
+561,Salmon with Asparagus,Dinner,645,23.9,73.7,28.3,Thursday
+562,Fish Curry,Dinner,541,21.1,64.0,22.3,Thursday
+563,Steak with Vegetables,Dinner,525,14.9,52.5,28.4,Thursday
+564,Chicken Tikka Masala,Dinner,532,24.9,57.5,22.5,Thursday
+565,Vegetable Lasagna,Dinner,628,22.6,66.5,30.2,Thursday
+566,Beef Stew,Dinner,550,16.0,61.0,26.9,Thursday
+567,Pasta Bolognese,Dinner,503,17.5,55.2,23.6,Thursday
+568,Grilled Fish,Dinner,614,21.3,70.6,27.4,Thursday
+569,Stuffed Bell Peppers,Dinner,523,19.8,53.3,25.6,Thursday
+570,Seafood Paella,Dinner,632,25.4,74.7,25.7,Thursday
+571,Salmon with Asparagus,Dinner,597,24.4,72.1,23.4,Thursday
+572,Fish Curry,Dinner,690,33.8,69.3,30.8,Thursday
+573,Steak with Vegetables,Dinner,537,24.2,54.2,24.8,Thursday
+574,Chicken Tikka Masala,Dinner,646,28.7,79.0,23.9,Thursday
+575,Vegetable Lasagna,Dinner,519,21.9,63.2,19.8,Thursday
+576,Beef Stew,Dinner,678,29.8,77.3,27.7,Thursday
+577,Pasta Bolognese,Dinner,602,25.3,74.2,22.7,Thursday
+578,Grilled Fish,Dinner,693,28.9,77.2,29.8,Thursday
+579,Stuffed Bell Peppers,Dinner,603,28.2,73.0,22.0,Thursday
+580,Seafood Paella,Dinner,689,28.1,76.4,30.1,Thursday
+581,Salmon with Asparagus,Dinner,626,30.4,63.4,27.9,Thursday
+582,Fish Curry,Dinner,614,18.7,61.6,32.5,Thursday
+583,Steak with Vegetables,Dinner,596,24.6,74.1,22.4,Thursday
+584,Chicken Tikka Masala,Dinner,504,17.0,55.4,23.8,Thursday
+585,Vegetable Lasagna,Dinner,693,18.5,69.5,37.9,Thursday
+586,Beef Stew,Dinner,595,21.8,61.9,28.9,Thursday
+587,Pasta Bolognese,Dinner,689,20.9,83.5,30.2,Thursday
+588,Grilled Fish,Dinner,578,26.7,68.5,21.9,Thursday
+589,Stuffed Bell Peppers,Dinner,606,29.0,74.6,21.3,Thursday
+590,Seafood Paella,Dinner,602,23.6,63.1,28.4,Thursday
+591,Salmon with Asparagus,Dinner,549,27.4,55.5,24.2,Thursday
+592,Fish Curry,Dinner,528,16.8,63.7,22.9,Thursday
+593,Steak with Vegetables,Dinner,661,16.7,69.1,35.3,Thursday
+594,Chicken Tikka Masala,Dinner,592,25.9,73.2,21.7,Thursday
+595,Vegetable Lasagna,Dinner,641,19.4,76.4,28.6,Thursday
+596,Beef Stew,Dinner,686,33.6,75.6,27.7,Thursday
+597,Pasta Bolognese,Dinner,626,29.1,63.9,28.2,Thursday
+598,Grilled Fish,Dinner,580,21.5,67.0,25.1,Thursday
+599,Stuffed Bell Peppers,Dinner,523,23.8,63.3,19.4,Thursday
+600,Seafood Paella,Dinner,600,23.8,62.3,28.4,Thursday
+601,Fruit Salad,Snack,183,8.5,22.5,6.6,Thursday
+602,Caprese Salad,Snack,262,12.5,30.3,10.1,Thursday
+603,Veggie Burger,Snack,296,7.6,35.5,13.7,Thursday
+604,Stuffed Mushrooms,Snack,203,5.6,22.4,10.1,Thursday
+605,Rice and Beans,Snack,290,12.3,32.3,12.4,Thursday
+606,Fruit Parfait,Snack,265,11.1,28.8,11.7,Thursday
+607,Avocado Sushi,Snack,250,9.8,30.1,10.0,Thursday
+608,Tofu Scramble,Snack,231,10.6,26.1,9.4,Thursday
+609,Prawn Stir Fry,Snack,273,12.8,30.1,11.3,Thursday
+610,Tomato Soup,Snack,179,5.8,18.7,9.0,Thursday
+611,Fruit Salad,Snack,268,11.7,32.8,10.0,Thursday
+612,Caprese Salad,Snack,264,11.4,28.6,11.6,Thursday
+613,Veggie Burger,Snack,163,8.0,17.2,6.9,Thursday
+614,Stuffed Mushrooms,Snack,195,8.6,19.6,9.1,Thursday
+615,Rice and Beans,Snack,177,7.5,21.3,6.9,Thursday
+616,Fruit Parfait,Snack,186,5.3,22.0,8.5,Thursday
+617,Avocado Sushi,Snack,266,13.1,30.8,10.0,Thursday
+618,Tofu Scramble,Snack,213,10.0,26.1,7.6,Thursday
+619,Prawn Stir Fry,Snack,255,11.5,31.4,9.3,Thursday
+620,Tomato Soup,Snack,264,10.2,30.6,11.2,Thursday
+621,Fruit Salad,Snack,227,10.5,25.6,9.2,Thursday
+622,Caprese Salad,Snack,273,9.9,31.0,12.2,Thursday
+623,Veggie Burger,Snack,265,11.6,31.4,10.3,Thursday
+624,Stuffed Mushrooms,Snack,235,10.6,24.2,10.6,Thursday
+625,Rice and Beans,Snack,241,10.1,28.0,9.8,Thursday
+626,Fruit Parfait,Snack,278,8.2,33.0,12.6,Thursday
+627,Avocado Sushi,Snack,137,5.2,17.0,5.4,Thursday
+628,Tofu Scramble,Snack,123,4.3,15.0,5.1,Thursday
+629,Prawn Stir Fry,Snack,110,4.8,12.8,4.4,Thursday
+630,Tomato Soup,Snack,204,9.8,22.1,8.5,Thursday
+631,Fruit Salad,Snack,221,6.1,24.1,11.1,Thursday
+632,Caprese Salad,Snack,259,7.1,26.5,13.8,Thursday
+633,Veggie Burger,Snack,131,5.0,15.4,5.5,Thursday
+634,Stuffed Mushrooms,Snack,193,8.6,21.6,8.0,Thursday
+635,Rice and Beans,Snack,252,8.7,30.4,10.6,Thursday
+636,Fruit Parfait,Snack,182,8.0,22.0,6.9,Thursday
+637,Avocado Sushi,Snack,148,6.2,15.3,6.9,Thursday
+638,Tofu Scramble,Snack,107,5.1,13.3,3.7,Thursday
+639,Prawn Stir Fry,Snack,291,11.3,31.8,13.2,Thursday
+640,Tomato Soup,Snack,274,13.6,29.6,11.2,Thursday
+641,Avocado Toast,Breakfast,309,8.4,31.1,16.8,Friday
+642,Greek Yogurt with Berries,Breakfast,377,9.8,39.9,19.8,Friday
+643,Smoothie Bowl,Breakfast,379,18.7,38.6,16.6,Friday
+644,Oatmeal with Fruits,Breakfast,480,22.5,51.1,20.6,Friday
+645,Protein Pancakes,Breakfast,364,13.1,36.7,18.3,Friday
+646,Egg Benedict,Breakfast,317,11.3,33.6,15.3,Friday
+647,Spinach Omelette,Breakfast,345,14.6,41.4,13.4,Friday
+648,Quiche Lorraine,Breakfast,309,10.7,38.5,12.5,Friday
+649,Egg Salad,Breakfast,444,11.7,54.9,19.7,Friday
+650,Mango Smoothie,Breakfast,407,14.7,47.6,17.5,Friday
+651,Avocado Toast,Breakfast,318,15.6,32.2,14.1,Friday
+652,Greek Yogurt with Berries,Breakfast,332,15.9,34.3,14.6,Friday
+653,Smoothie Bowl,Breakfast,435,18.9,43.8,20.5,Friday
+654,Oatmeal with Fruits,Breakfast,365,12.4,39.6,17.4,Friday
+655,Protein Pancakes,Breakfast,420,10.9,49.3,19.9,Friday
+656,Egg Benedict,Breakfast,459,15.0,55.3,19.8,Friday
+657,Spinach Omelette,Breakfast,404,10.8,44.7,20.2,Friday
+658,Quiche Lorraine,Breakfast,479,21.5,49.3,21.8,Friday
+659,Egg Salad,Breakfast,323,14.0,36.6,13.4,Friday
+660,Mango Smoothie,Breakfast,357,15.3,41.7,14.3,Friday
+661,Avocado Toast,Breakfast,434,15.0,43.7,22.1,Friday
+662,Greek Yogurt with Berries,Breakfast,314,8.9,31.8,16.8,Friday
+663,Smoothie Bowl,Breakfast,484,19.9,56.4,19.9,Friday
+664,Oatmeal with Fruits,Breakfast,369,10.8,43.6,16.8,Friday
+665,Protein Pancakes,Breakfast,412,18.5,43.6,18.2,Friday
+666,Egg Benedict,Breakfast,458,11.5,49.3,23.9,Friday
+667,Spinach Omelette,Breakfast,371,15.6,45.6,14.0,Friday
+668,Quiche Lorraine,Breakfast,390,10.6,45.1,18.6,Friday
+669,Egg Salad,Breakfast,475,22.2,50.1,20.6,Friday
+670,Mango Smoothie,Breakfast,377,10.9,40.0,19.3,Friday
+671,Avocado Toast,Breakfast,400,18.0,43.6,17.1,Friday
+672,Greek Yogurt with Berries,Breakfast,448,15.9,50.7,20.2,Friday
+673,Smoothie Bowl,Breakfast,372,17.0,39.2,16.4,Friday
+674,Oatmeal with Fruits,Breakfast,354,10.1,44.2,15.2,Friday
+675,Protein Pancakes,Breakfast,403,19.8,45.4,15.8,Friday
+676,Egg Benedict,Breakfast,331,11.4,34.6,16.3,Friday
+677,Spinach Omelette,Breakfast,342,15.9,39.9,13.2,Friday
+678,Quiche Lorraine,Breakfast,329,13.9,35.1,14.8,Friday
+679,Egg Salad,Breakfast,393,17.2,47.7,14.8,Friday
+680,Mango Smoothie,Breakfast,452,14.4,50.7,21.3,Friday
+681,Grilled Chicken Salad,Lunch,624,19.7,73.8,27.8,Friday
+682,Beef Stir Fry,Lunch,705,23.3,75.1,34.6,Friday
+683,Turkey Sandwich,Lunch,713,26.3,81.4,31.4,Friday
+684,Chicken Caesar Wrap,Lunch,615,21.1,67.9,28.8,Friday
+685,Vegetable Biryani,Lunch,744,23.5,92.3,31.2,Friday
+686,Sushi Rolls,Lunch,503,13.5,52.6,26.5,Friday
+687,Chicken Alfredo,Lunch,582,17.7,66.0,27.5,Friday
+688,Beef Burrito,Lunch,580,26.9,71.9,20.5,Friday
+689,Shrimp Tacos,Lunch,517,23.7,63.4,18.7,Friday
+690,Chicken Quesadilla,Lunch,643,24.0,65.6,31.6,Friday
+691,Grilled Chicken Salad,Lunch,759,25.7,86.5,34.5,Friday
+692,Beef Stir Fry,Lunch,670,30.4,71.8,29.0,Friday
+693,Turkey Sandwich,Lunch,734,25.6,75.7,36.5,Friday
+694,Chicken Caesar Wrap,Lunch,636,17.8,69.0,32.1,Friday
+695,Vegetable Biryani,Lunch,777,34.1,79.2,36.0,Friday
+696,Sushi Rolls,Lunch,515,25.2,56.6,20.9,Friday
+697,Chicken Alfredo,Lunch,692,27.7,71.5,32.8,Friday
+698,Beef Burrito,Lunch,671,23.2,73.2,31.7,Friday
+699,Shrimp Tacos,Lunch,667,28.6,74.7,28.2,Friday
+700,Chicken Quesadilla,Lunch,666,31.3,68.7,29.6,Friday
+701,Grilled Chicken Salad,Lunch,662,20.1,74.6,31.5,Friday
+702,Beef Stir Fry,Lunch,621,17.9,62.6,33.2,Friday
+703,Turkey Sandwich,Lunch,693,33.2,82.2,25.7,Friday
+704,Chicken Caesar Wrap,Lunch,544,17.5,60.6,25.7,Friday
+705,Vegetable Biryani,Lunch,550,26.0,66.6,20.0,Friday
+706,Sushi Rolls,Lunch,678,30.6,81.6,25.5,Friday
+707,Chicken Alfredo,Lunch,567,26.7,70.4,19.8,Friday
+708,Beef Burrito,Lunch,664,27.1,70.4,30.4,Friday
+709,Shrimp Tacos,Lunch,695,26.4,80.6,29.7,Friday
+710,Chicken Quesadilla,Lunch,645,27.9,68.9,28.6,Friday
+711,Grilled Chicken Salad,Lunch,727,22.8,88.6,31.3,Friday
+712,Beef Stir Fry,Lunch,705,27.0,85.2,28.5,Friday
+713,Turkey Sandwich,Lunch,702,18.8,82.3,33.1,Friday
+714,Chicken Caesar Wrap,Lunch,711,19.5,83.1,33.4,Friday
+715,Vegetable Biryani,Lunch,663,18.5,82.0,29.0,Friday
+716,Sushi Rolls,Lunch,632,19.9,67.6,31.3,Friday
+717,Chicken Alfredo,Lunch,777,26.8,94.8,32.3,Friday
+718,Beef Burrito,Lunch,581,21.3,67.9,24.9,Friday
+719,Shrimp Tacos,Lunch,535,22.4,59.1,23.2,Friday
+720,Chicken Quesadilla,Lunch,722,20.5,85.6,33.1,Friday
+721,Salmon with Asparagus,Dinner,593,15.4,62.9,31.1,Friday
+722,Fish Curry,Dinner,541,20.9,60.5,23.9,Friday
+723,Steak with Vegetables,Dinner,660,18.4,78.2,30.4,Friday
+724,Chicken Tikka Masala,Dinner,572,22.3,65.2,24.7,Friday
+725,Vegetable Lasagna,Dinner,674,21.0,75.8,31.9,Friday
+726,Beef Stew,Dinner,570,22.8,57.8,27.5,Friday
+727,Pasta Bolognese,Dinner,695,25.3,76.4,32.0,Friday
+728,Grilled Fish,Dinner,561,14.6,58.8,29.7,Friday
+729,Stuffed Bell Peppers,Dinner,621,17.0,69.3,30.6,Friday
+730,Seafood Paella,Dinner,527,18.2,58.6,24.4,Friday
+731,Salmon with Asparagus,Dinner,695,33.5,81.4,26.2,Friday
+732,Fish Curry,Dinner,542,24.7,66.0,19.9,Friday
+733,Steak with Vegetables,Dinner,637,21.6,70.3,29.9,Friday
+734,Chicken Tikka Masala,Dinner,561,15.2,56.9,30.3,Friday
+735,Vegetable Lasagna,Dinner,676,16.9,76.4,33.6,Friday
+736,Beef Stew,Dinner,697,34.4,86.9,23.5,Friday
+737,Pasta Bolognese,Dinner,515,14.2,57.7,25.3,Friday
+738,Grilled Fish,Dinner,534,19.8,53.6,26.7,Friday
+739,Stuffed Bell Peppers,Dinner,598,25.6,68.8,24.5,Friday
+740,Seafood Paella,Dinner,540,25.9,54.3,24.4,Friday
+741,Salmon with Asparagus,Dinner,594,23.8,63.7,27.1,Friday
+742,Fish Curry,Dinner,608,18.4,71.0,27.8,Friday
+743,Steak with Vegetables,Dinner,654,26.8,75.2,27.3,Friday
+744,Chicken Tikka Masala,Dinner,525,17.3,59.2,24.3,Friday
+745,Vegetable Lasagna,Dinner,538,24.9,65.9,19.4,Friday
+746,Beef Stew,Dinner,543,21.6,61.8,23.3,Friday
+747,Pasta Bolognese,Dinner,508,18.1,57.4,22.9,Friday
+748,Grilled Fish,Dinner,648,24.8,76.4,27.0,Friday
+749,Stuffed Bell Peppers,Dinner,675,18.2,78.1,32.2,Friday
+750,Seafood Paella,Dinner,509,18.9,51.0,25.5,Friday
+751,Salmon with Asparagus,Dinner,604,16.6,60.8,32.7,Friday
+752,Fish Curry,Dinner,636,21.2,76.9,27.1,Friday
+753,Steak with Vegetables,Dinner,686,22.4,85.5,28.3,Friday
+754,Chicken Tikka Masala,Dinner,573,20.0,58.0,29.0,Friday
+755,Vegetable Lasagna,Dinner,676,22.4,79.7,29.7,Friday
+756,Beef Stew,Dinner,555,15.3,61.2,27.7,Friday
+757,Pasta Bolognese,Dinner,699,26.7,86.5,27.4,Friday
+758,Grilled Fish,Dinner,503,15.5,53.3,25.3,Friday
+759,Stuffed Bell Peppers,Dinner,652,25.1,74.5,28.2,Friday
+760,Seafood Paella,Dinner,630,16.9,63.3,34.4,Friday
+761,Fruit Salad,Snack,248,9.0,27.6,11.3,Friday
+762,Caprese Salad,Snack,227,10.7,24.6,9.5,Friday
+763,Veggie Burger,Snack,244,6.7,26.4,12.4,Friday
+764,Stuffed Mushrooms,Snack,126,3.7,12.7,6.7,Friday
+765,Rice and Beans,Snack,297,14.6,34.8,11.0,Friday
+766,Fruit Parfait,Snack,286,8.6,34.9,12.4,Friday
+767,Avocado Sushi,Snack,279,7.0,29.8,14.6,Friday
+768,Tofu Scramble,Snack,209,7.6,21.5,10.3,Friday
+769,Prawn Stir Fry,Snack,142,4.9,17.7,5.7,Friday
+770,Tomato Soup,Snack,153,6.6,18.7,5.8,Friday
+771,Fruit Salad,Snack,188,7.8,22.5,7.4,Friday
+772,Caprese Salad,Snack,269,12.2,27.3,12.3,Friday
+773,Veggie Burger,Snack,212,9.7,22.1,9.4,Friday
+774,Stuffed Mushrooms,Snack,191,5.4,21.4,9.3,Friday
+775,Rice and Beans,Snack,241,6.4,29.5,10.8,Friday
+776,Fruit Parfait,Snack,213,8.8,23.4,9.4,Friday
+777,Avocado Sushi,Snack,176,8.0,20.1,7.1,Friday
+778,Tofu Scramble,Snack,116,4.2,13.5,5.0,Friday
+779,Prawn Stir Fry,Snack,270,12.7,29.1,11.4,Friday
+780,Tomato Soup,Snack,255,11.1,31.5,9.4,Friday
+781,Fruit Salad,Snack,196,9.2,24.1,7.0,Friday
+782,Caprese Salad,Snack,171,4.5,21.2,7.6,Friday
+783,Veggie Burger,Snack,171,5.2,17.9,8.7,Friday
+784,Stuffed Mushrooms,Snack,145,4.2,16.3,7.0,Friday
+785,Rice and Beans,Snack,201,7.5,23.0,8.8,Friday
+786,Fruit Parfait,Snack,221,9.7,26.0,8.7,Friday
+787,Avocado Sushi,Snack,282,13.4,32.2,11.1,Friday
+788,Tofu Scramble,Snack,118,5.0,14.2,4.6,Friday
+789,Prawn Stir Fry,Snack,179,4.5,21.0,8.6,Friday
+790,Tomato Soup,Snack,200,7.4,23.4,8.5,Friday
+791,Fruit Salad,Snack,174,8.4,18.7,7.3,Friday
+792,Caprese Salad,Snack,278,7.2,33.8,12.7,Friday
+793,Veggie Burger,Snack,261,8.6,28.7,12.4,Friday
+794,Stuffed Mushrooms,Snack,121,5.0,15.1,4.5,Friday
+795,Rice and Beans,Snack,193,4.8,20.2,10.3,Friday
+796,Fruit Parfait,Snack,121,5.6,13.6,4.9,Friday
+797,Avocado Sushi,Snack,145,6.9,15.3,6.2,Friday
+798,Tofu Scramble,Snack,282,11.1,34.0,11.3,Friday
+799,Prawn Stir Fry,Snack,243,7.4,25.3,12.5,Friday
+800,Tomato Soup,Snack,209,6.2,24.7,9.5,Friday
+801,Avocado Toast,Breakfast,439,17.9,54.1,16.8,Saturday
+802,Greek Yogurt with Berries,Breakfast,459,12.4,54.5,21.3,Saturday
+803,Smoothie Bowl,Breakfast,376,12.6,37.8,19.4,Saturday
+804,Oatmeal with Fruits,Breakfast,372,11.8,45.7,15.8,Saturday
+805,Protein Pancakes,Breakfast,431,17.4,47.9,18.9,Saturday
+806,Egg Benedict,Breakfast,417,17.3,46.0,18.2,Saturday
+807,Spinach Omelette,Breakfast,436,18.2,49.5,18.4,Saturday
+808,Quiche Lorraine,Breakfast,328,8.8,38.4,15.5,Saturday
+809,Egg Salad,Breakfast,473,21.2,58.3,17.2,Saturday
+810,Mango Smoothie,Breakfast,365,12.8,39.8,17.2,Saturday
+811,Avocado Toast,Breakfast,488,21.9,52.3,21.2,Saturday
+812,Greek Yogurt with Berries,Breakfast,327,15.0,33.4,14.8,Saturday
+813,Smoothie Bowl,Breakfast,378,10.7,38.4,20.2,Saturday
+814,Oatmeal with Fruits,Breakfast,355,16.1,44.4,12.6,Saturday
+815,Protein Pancakes,Breakfast,459,20.6,46.5,21.2,Saturday
+816,Egg Benedict,Breakfast,492,12.9,53.4,25.2,Saturday
+817,Spinach Omelette,Breakfast,361,11.5,42.8,16.0,Saturday
+818,Quiche Lorraine,Breakfast,369,10.0,38.2,19.6,Saturday
+819,Egg Salad,Breakfast,346,10.4,41.9,15.2,Saturday
+820,Mango Smoothie,Breakfast,301,14.9,31.8,12.7,Saturday
+821,Avocado Toast,Breakfast,466,19.0,51.2,20.6,Saturday
+822,Greek Yogurt with Berries,Breakfast,339,15.2,37.7,14.2,Saturday
+823,Smoothie Bowl,Breakfast,438,13.9,46.7,21.7,Saturday
+824,Oatmeal with Fruits,Breakfast,370,17.4,45.9,13.0,Saturday
+825,Protein Pancakes,Breakfast,469,12.3,50.6,24.2,Saturday
+826,Egg Benedict,Breakfast,379,13.5,41.4,17.7,Saturday
+827,Spinach Omelette,Breakfast,352,13.2,35.8,17.3,Saturday
+828,Quiche Lorraine,Breakfast,349,14.9,38.6,15.0,Saturday
+829,Egg Salad,Breakfast,418,16.9,43.1,19.8,Saturday
+830,Mango Smoothie,Breakfast,330,10.4,38.8,14.8,Saturday
+831,Avocado Toast,Breakfast,396,16.6,46.9,15.8,Saturday
+832,Greek Yogurt with Berries,Breakfast,362,10.2,39.6,18.1,Saturday
+833,Smoothie Bowl,Breakfast,342,15.3,35.0,15.6,Saturday
+834,Oatmeal with Fruits,Breakfast,466,18.7,52.0,20.4,Saturday
+835,Protein Pancakes,Breakfast,378,17.9,39.5,16.5,Saturday
+836,Egg Benedict,Breakfast,480,19.3,58.5,18.8,Saturday
+837,Spinach Omelette,Breakfast,397,11.3,47.0,18.2,Saturday
+838,Quiche Lorraine,Breakfast,327,8.2,38.4,15.6,Saturday
+839,Egg Salad,Breakfast,315,11.6,32.8,15.3,Saturday
+840,Mango Smoothie,Breakfast,420,13.8,49.0,18.8,Saturday
+841,Grilled Chicken Salad,Lunch,680,20.7,78.4,31.5,Saturday
+842,Beef Stir Fry,Lunch,702,17.9,72.3,37.9,Saturday
+843,Turkey Sandwich,Lunch,766,28.5,81.0,36.4,Saturday
+844,Chicken Caesar Wrap,Lunch,533,17.0,62.6,23.8,Saturday
+845,Vegetable Biryani,Lunch,780,22.5,81.8,40.3,Saturday
+846,Sushi Rolls,Lunch,721,23.0,86.0,31.7,Saturday
+847,Chicken Alfredo,Lunch,511,13.1,51.5,28.1,Saturday
+848,Beef Burrito,Lunch,529,23.5,55.6,23.6,Saturday
+849,Shrimp Tacos,Lunch,758,19.9,79.1,40.2,Saturday
+850,Chicken Quesadilla,Lunch,764,24.0,90.7,33.9,Saturday
+851,Grilled Chicken Salad,Lunch,724,22.2,79.5,35.2,Saturday
+852,Beef Stir Fry,Lunch,783,28.3,83.4,37.4,Saturday
+853,Turkey Sandwich,Lunch,735,32.1,83.1,30.5,Saturday
+854,Chicken Caesar Wrap,Lunch,763,29.9,88.1,32.3,Saturday
+855,Vegetable Biryani,Lunch,774,30.9,78.3,37.5,Saturday
+856,Sushi Rolls,Lunch,774,31.7,96.0,29.2,Saturday
+857,Chicken Alfredo,Lunch,646,16.4,80.6,28.7,Saturday
+858,Beef Burrito,Lunch,736,30.4,89.4,28.5,Saturday
+859,Shrimp Tacos,Lunch,791,25.7,80.8,40.6,Saturday
+860,Chicken Quesadilla,Lunch,657,21.8,76.3,29.4,Saturday
+861,Grilled Chicken Salad,Lunch,795,35.8,92.1,31.5,Saturday
+862,Beef Stir Fry,Lunch,552,19.3,59.9,26.1,Saturday
+863,Turkey Sandwich,Lunch,733,25.5,88.9,30.6,Saturday
+864,Chicken Caesar Wrap,Lunch,653,25.6,69.8,30.2,Saturday
+865,Vegetable Biryani,Lunch,661,25.6,68.6,31.6,Saturday
+866,Sushi Rolls,Lunch,641,24.4,64.8,31.6,Saturday
+867,Chicken Alfredo,Lunch,779,37.6,96.7,26.9,Saturday
+868,Beef Burrito,Lunch,766,32.1,82.0,34.4,Saturday
+869,Shrimp Tacos,Lunch,531,17.0,62.0,23.9,Saturday
+870,Chicken Quesadilla,Lunch,632,20.2,73.5,28.6,Saturday
+871,Grilled Chicken Salad,Lunch,515,15.4,58.8,24.2,Saturday
+872,Beef Stir Fry,Lunch,653,32.5,71.1,26.5,Saturday
+873,Turkey Sandwich,Lunch,538,21.4,67.0,20.5,Saturday
+874,Chicken Caesar Wrap,Lunch,546,15.3,58.6,27.8,Saturday
+875,Vegetable Biryani,Lunch,623,23.2,72.3,26.8,Saturday
+876,Sushi Rolls,Lunch,765,29.6,94.6,29.8,Saturday
+877,Chicken Alfredo,Lunch,599,21.3,73.5,24.4,Saturday
+878,Beef Burrito,Lunch,668,20.8,79.7,29.6,Saturday
+879,Shrimp Tacos,Lunch,783,25.7,81.2,39.5,Saturday
+880,Chicken Quesadilla,Lunch,774,31.6,88.1,32.8,Saturday
+881,Salmon with Asparagus,Dinner,588,18.5,62.5,29.3,Saturday
+882,Fish Curry,Dinner,620,25.6,70.0,26.4,Saturday
+883,Steak with Vegetables,Dinner,527,21.2,60.4,22.3,Saturday
+884,Chicken Tikka Masala,Dinner,595,18.9,68.1,27.4,Saturday
+885,Vegetable Lasagna,Dinner,532,14.0,53.8,29.0,Saturday
+886,Beef Stew,Dinner,650,18.9,75.1,30.4,Saturday
+887,Pasta Bolognese,Dinner,668,17.0,83.4,29.6,Saturday
+888,Grilled Fish,Dinner,679,20.0,69.2,35.8,Saturday
+889,Stuffed Bell Peppers,Dinner,660,31.0,71.0,28.0,Saturday
+890,Seafood Paella,Dinner,538,18.7,66.3,22.0,Saturday
+891,Salmon with Asparagus,Dinner,516,22.6,56.6,22.1,Saturday
+892,Fish Curry,Dinner,646,26.4,71.9,28.1,Saturday
+893,Steak with Vegetables,Dinner,559,25.0,64.4,22.4,Saturday
+894,Chicken Tikka Masala,Dinner,610,24.0,67.4,27.2,Saturday
+895,Vegetable Lasagna,Dinner,606,29.1,67.4,24.4,Saturday
+896,Beef Stew,Dinner,599,26.6,63.2,26.6,Saturday
+897,Pasta Bolognese,Dinner,665,27.9,74.6,28.3,Saturday
+898,Grilled Fish,Dinner,502,20.8,58.1,20.7,Saturday
+899,Stuffed Bell Peppers,Dinner,671,19.7,83.9,28.5,Saturday
+900,Seafood Paella,Dinner,635,26.0,72.8,26.6,Saturday
+901,Salmon with Asparagus,Dinner,600,19.3,61.4,30.8,Saturday
+902,Fish Curry,Dinner,623,29.9,73.2,23.4,Saturday
+903,Steak with Vegetables,Dinner,636,19.0,71.3,30.5,Saturday
+904,Chicken Tikka Masala,Dinner,626,16.6,74.5,29.1,Saturday
+905,Vegetable Lasagna,Dinner,618,24.8,68.2,27.3,Saturday
+906,Beef Stew,Dinner,580,19.2,72.3,23.8,Saturday
+907,Pasta Bolognese,Dinner,684,30.9,71.4,30.5,Saturday
+908,Grilled Fish,Dinner,559,25.3,68.0,20.6,Saturday
+909,Stuffed Bell Peppers,Dinner,585,26.4,67.9,23.1,Saturday
+910,Seafood Paella,Dinner,655,28.4,67.8,30.0,Saturday
+911,Salmon with Asparagus,Dinner,541,17.4,55.4,27.8,Saturday
+912,Fish Curry,Dinner,537,21.2,62.0,22.7,Saturday
+913,Steak with Vegetables,Dinner,657,27.3,68.1,30.6,Saturday
+914,Chicken Tikka Masala,Dinner,532,22.5,57.7,23.5,Saturday
+915,Vegetable Lasagna,Dinner,594,18.7,59.4,31.3,Saturday
+916,Beef Stew,Dinner,582,20.0,65.2,26.8,Saturday
+917,Pasta Bolognese,Dinner,631,30.8,69.1,25.7,Saturday
+918,Grilled Fish,Dinner,576,21.8,59.3,28.0,Saturday
+919,Stuffed Bell Peppers,Dinner,544,19.6,62.5,24.0,Saturday
+920,Seafood Paella,Dinner,583,15.6,72.6,25.6,Saturday
+921,Fruit Salad,Snack,242,12.1,27.0,9.5,Saturday
+922,Caprese Salad,Snack,287,12.4,32.3,12.0,Saturday
+923,Veggie Burger,Snack,122,5.2,13.5,5.2,Saturday
+924,Stuffed Mushrooms,Snack,252,11.1,25.5,11.7,Saturday
+925,Rice and Beans,Snack,298,10.5,35.6,12.6,Saturday
+926,Fruit Parfait,Snack,271,7.2,31.0,13.1,Saturday
+927,Avocado Sushi,Snack,300,7.7,32.3,15.6,Saturday
+928,Tofu Scramble,Snack,145,5.7,18.1,5.5,Saturday
+929,Prawn Stir Fry,Snack,255,9.0,31.0,10.6,Saturday
+930,Tomato Soup,Snack,295,12.2,30.9,13.6,Saturday
+931,Fruit Salad,Snack,156,7.8,15.7,6.9,Saturday
+932,Caprese Salad,Snack,180,6.6,22.2,7.2,Saturday
+933,Veggie Burger,Snack,246,11.5,26.7,10.4,Saturday
+934,Stuffed Mushrooms,Snack,206,6.1,20.9,10.9,Saturday
+935,Rice and Beans,Snack,151,4.4,18.0,6.8,Saturday
+936,Fruit Parfait,Snack,156,6.0,16.2,7.5,Saturday
+937,Avocado Sushi,Snack,279,10.6,30.3,12.8,Saturday
+938,Tofu Scramble,Snack,227,9.3,28.1,8.6,Saturday
+939,Prawn Stir Fry,Snack,103,5.1,12.3,3.7,Saturday
+940,Tomato Soup,Snack,299,9.3,32.9,14.5,Saturday
+941,Fruit Salad,Snack,195,5.1,23.1,9.1,Saturday
+942,Caprese Salad,Snack,240,8.7,24.5,11.9,Saturday
+943,Veggie Burger,Snack,279,10.5,33.7,11.4,Saturday
+944,Stuffed Mushrooms,Snack,175,8.5,19.8,6.9,Saturday
+945,Rice and Beans,Snack,146,5.5,16.2,6.6,Saturday
+946,Fruit Parfait,Snack,195,7.6,21.3,8.8,Saturday
+947,Avocado Sushi,Snack,283,7.4,30.0,14.8,Saturday
+948,Tofu Scramble,Snack,293,10.2,33.0,13.4,Saturday
+949,Prawn Stir Fry,Snack,184,7.8,22.4,7.0,Saturday
+950,Tomato Soup,Snack,291,9.3,29.7,15.0,Saturday
+951,Fruit Salad,Snack,171,6.6,18.8,7.7,Saturday
+952,Caprese Salad,Snack,204,5.8,23.0,9.9,Saturday
+953,Veggie Burger,Snack,101,4.0,11.5,4.3,Saturday
+954,Stuffed Mushrooms,Snack,104,2.7,10.8,5.6,Saturday
+955,Rice and Beans,Snack,143,5.1,16.5,6.3,Saturday
+956,Fruit Parfait,Snack,260,10.3,27.3,12.2,Saturday
+957,Avocado Sushi,Snack,147,6.6,15.3,6.6,Saturday
+958,Tofu Scramble,Snack,278,8.9,30.8,13.2,Saturday
+959,Prawn Stir Fry,Snack,186,7.5,19.3,8.8,Saturday
+960,Tomato Soup,Snack,173,7.7,20.9,6.5,Saturday
+961,Avocado Toast,Breakfast,357,11.1,39.5,17.2,Sunday
+962,Greek Yogurt with Berries,Breakfast,478,15.5,53.7,22.4,Sunday
+963,Smoothie Bowl,Breakfast,345,9.4,36.9,17.8,Sunday
+964,Oatmeal with Fruits,Breakfast,493,23.1,60.6,17.6,Sunday
+965,Protein Pancakes,Breakfast,358,14.9,39.2,15.7,Sunday
+966,Egg Benedict,Breakfast,460,16.4,48.7,22.2,Sunday
+967,Spinach Omelette,Breakfast,439,13.5,53.9,18.8,Sunday
+968,Quiche Lorraine,Breakfast,380,14.6,43.0,16.6,Sunday
+969,Egg Salad,Breakfast,462,17.7,46.2,22.9,Sunday
+970,Mango Smoothie,Breakfast,370,13.0,40.4,17.4,Sunday
+971,Avocado Toast,Breakfast,499,20.1,62.1,18.9,Sunday
+972,Greek Yogurt with Berries,Breakfast,304,10.8,30.8,15.3,Sunday
+973,Smoothie Bowl,Breakfast,334,8.6,39.0,16.0,Sunday
+974,Oatmeal with Fruits,Breakfast,379,11.3,45.5,16.9,Sunday
+975,Protein Pancakes,Breakfast,382,15.3,41.3,17.3,Sunday
+976,Egg Benedict,Breakfast,323,12.4,40.1,12.6,Sunday
+977,Spinach Omelette,Breakfast,409,10.7,45.5,20.5,Sunday
+978,Quiche Lorraine,Breakfast,492,17.8,49.3,24.8,Sunday
+979,Egg Salad,Breakfast,491,21.9,58.0,19.0,Sunday
+980,Mango Smoothie,Breakfast,388,10.6,43.8,18.9,Sunday
+981,Avocado Toast,Breakfast,490,12.6,61.0,21.7,Sunday
+982,Greek Yogurt with Berries,Breakfast,307,10.4,35.0,13.9,Sunday
+983,Smoothie Bowl,Breakfast,405,19.9,44.9,16.2,Sunday
+984,Oatmeal with Fruits,Breakfast,375,17.4,45.1,13.9,Sunday
+985,Protein Pancakes,Breakfast,398,11.3,45.5,19.0,Sunday
+986,Egg Benedict,Breakfast,356,10.0,43.2,15.9,Sunday
+987,Spinach Omelette,Breakfast,366,13.5,45.7,14.4,Sunday
+988,Quiche Lorraine,Breakfast,402,15.5,49.4,15.8,Sunday
+989,Egg Salad,Breakfast,459,19.4,46.3,21.8,Sunday
+990,Mango Smoothie,Breakfast,316,14.3,32.2,14.4,Sunday
+991,Avocado Toast,Breakfast,443,20.1,47.2,19.3,Sunday
+992,Greek Yogurt with Berries,Breakfast,344,12.1,34.9,17.3,Sunday
+993,Smoothie Bowl,Breakfast,476,14.6,55.3,21.8,Sunday
+994,Oatmeal with Fruits,Breakfast,500,17.4,59.3,21.5,Sunday
+995,Protein Pancakes,Breakfast,486,13.9,51.7,24.8,Sunday
+996,Egg Benedict,Breakfast,392,18.7,43.3,16.0,Sunday
+997,Spinach Omelette,Breakfast,467,22.0,56.4,17.0,Sunday
+998,Quiche Lorraine,Breakfast,500,14.6,51.1,26.4,Sunday
+999,Egg Salad,Breakfast,376,14.1,39.3,18.0,Sunday
+1000,Mango Smoothie,Breakfast,399,19.4,49.7,13.6,Sunday
+1001,Grilled Chicken Salad,Lunch,589,22.5,60.3,28.6,Sunday
+1002,Beef Stir Fry,Lunch,564,21.9,57.2,27.5,Sunday
+1003,Turkey Sandwich,Lunch,689,24.5,76.7,31.6,Sunday
+1004,Chicken Caesar Wrap,Lunch,599,19.7,68.3,27.4,Sunday
+1005,Vegetable Biryani,Lunch,721,35.5,89.4,24.6,Sunday
+1006,Sushi Rolls,Lunch,581,24.7,72.4,21.4,Sunday
+1007,Chicken Alfredo,Lunch,526,25.0,58.8,21.2,Sunday
+1008,Beef Burrito,Lunch,738,22.5,85.7,33.9,Sunday
+1009,Shrimp Tacos,Lunch,560,18.7,59.3,27.6,Sunday
+1010,Chicken Quesadilla,Lunch,608,26.5,73.3,23.2,Sunday
+1011,Grilled Chicken Salad,Lunch,584,28.8,59.2,25.8,Sunday
+1012,Beef Stir Fry,Lunch,550,20.6,58.2,26.1,Sunday
+1013,Turkey Sandwich,Lunch,628,29.6,71.5,24.8,Sunday
+1014,Chicken Caesar Wrap,Lunch,790,19.8,93.0,37.6,Sunday
+1015,Vegetable Biryani,Lunch,777,36.6,91.3,29.5,Sunday
+1016,Sushi Rolls,Lunch,725,20.1,88.9,32.1,Sunday
+1017,Chicken Alfredo,Lunch,554,26.3,67.6,19.8,Sunday
+1018,Beef Burrito,Lunch,554,21.8,63.8,23.5,Sunday
+1019,Shrimp Tacos,Lunch,569,18.6,65.7,25.8,Sunday
+1020,Chicken Quesadilla,Lunch,743,25.1,86.9,32.8,Sunday
+1021,Grilled Chicken Salad,Lunch,763,31.8,78.2,35.9,Sunday
+1022,Beef Stir Fry,Lunch,595,19.7,68.5,26.9,Sunday
+1023,Turkey Sandwich,Lunch,558,19.8,64.6,24.5,Sunday
+1024,Chicken Caesar Wrap,Lunch,522,15.6,58.9,24.9,Sunday
+1025,Vegetable Biryani,Lunch,778,33.9,79.2,36.2,Sunday
+1026,Sushi Rolls,Lunch,537,26.3,64.2,19.4,Sunday
+1027,Chicken Alfredo,Lunch,696,27.8,72.5,32.8,Sunday
+1028,Beef Burrito,Lunch,563,16.9,65.8,25.8,Sunday
+1029,Shrimp Tacos,Lunch,670,22.6,68.6,33.9,Sunday
+1030,Chicken Quesadilla,Lunch,536,22.1,64.1,21.2,Sunday
+1031,Grilled Chicken Salad,Lunch,783,23.2,85.0,38.9,Sunday
+1032,Beef Stir Fry,Lunch,716,30.3,86.3,27.7,Sunday
+1033,Turkey Sandwich,Lunch,638,31.6,68.3,26.5,Sunday
+1034,Chicken Caesar Wrap,Lunch,609,30.1,75.1,20.9,Sunday
+1035,Vegetable Biryani,Lunch,603,21.2,73.3,25.0,Sunday
+1036,Sushi Rolls,Lunch,512,13.5,60.8,23.9,Sunday
+1037,Chicken Alfredo,Lunch,728,24.5,83.1,33.1,Sunday
+1038,Beef Burrito,Lunch,725,33.4,89.6,25.9,Sunday
+1039,Shrimp Tacos,Lunch,745,25.1,76.3,37.7,Sunday
+1040,Chicken Quesadilla,Lunch,694,19.1,82.0,32.2,Sunday
+1041,Salmon with Asparagus,Dinner,654,24.1,68.7,31.4,Sunday
+1042,Fish Curry,Dinner,534,22.5,57.5,23.8,Sunday
+1043,Steak with Vegetables,Dinner,588,15.4,68.3,28.1,Sunday
+1044,Chicken Tikka Masala,Dinner,671,27.8,75.2,28.8,Sunday
+1045,Vegetable Lasagna,Dinner,547,23.8,65.5,21.1,Sunday
+1046,Beef Stew,Dinner,639,19.7,69.1,31.5,Sunday
+1047,Pasta Bolognese,Dinner,591,23.4,69.3,24.5,Sunday
+1048,Grilled Fish,Dinner,513,21.0,51.9,24.6,Sunday
+1049,Stuffed Bell Peppers,Dinner,501,19.3,55.8,22.3,Sunday
+1050,Seafood Paella,Dinner,572,27.5,59.4,24.9,Sunday
+1051,Salmon with Asparagus,Dinner,511,23.3,58.4,20.5,Sunday
+1052,Fish Curry,Dinner,662,26.0,79.9,26.5,Sunday
+1053,Steak with Vegetables,Dinner,691,30.2,84.4,25.8,Sunday
+1054,Chicken Tikka Masala,Dinner,515,16.4,55.3,25.4,Sunday
+1055,Vegetable Lasagna,Dinner,575,21.5,62.8,26.4,Sunday
+1056,Beef Stew,Dinner,580,27.7,61.0,25.0,Sunday
+1057,Pasta Bolognese,Dinner,625,30.6,68.0,25.6,Sunday
+1058,Grilled Fish,Dinner,503,15.0,54.2,25.1,Sunday
+1059,Stuffed Bell Peppers,Dinner,603,24.6,64.8,27.3,Sunday
+1060,Seafood Paella,Dinner,603,15.5,63.7,31.8,Sunday
+1061,Salmon with Asparagus,Dinner,651,18.8,78.1,29.3,Sunday
+1062,Fish Curry,Dinner,680,33.8,70.0,29.4,Sunday
+1063,Steak with Vegetables,Dinner,581,23.1,64.9,25.4,Sunday
+1064,Chicken Tikka Masala,Dinner,612,18.4,74.3,26.8,Sunday
+1065,Vegetable Lasagna,Dinner,511,20.7,59.9,21.0,Sunday
+1066,Beef Stew,Dinner,601,16.9,74.9,26.0,Sunday
+1067,Pasta Bolognese,Dinner,555,26.1,61.9,22.6,Sunday
+1068,Grilled Fish,Dinner,544,16.8,63.3,24.8,Sunday
+1069,Stuffed Bell Peppers,Dinner,676,27.9,73.5,30.0,Sunday
+1070,Seafood Paella,Dinner,567,23.7,60.3,25.7,Sunday
+1071,Salmon with Asparagus,Dinner,598,19.5,73.8,25.0,Sunday
+1072,Fish Curry,Dinner,659,28.5,67.6,30.5,Sunday
+1073,Steak with Vegetables,Dinner,530,17.7,59.9,24.4,Sunday
+1074,Chicken Tikka Masala,Dinner,626,18.7,68.9,30.6,Sunday
+1075,Vegetable Lasagna,Dinner,555,19.1,56.5,28.1,Sunday
+1076,Beef Stew,Dinner,500,21.8,54.0,21.9,Sunday
+1077,Pasta Bolognese,Dinner,681,18.7,72.4,35.2,Sunday
+1078,Grilled Fish,Dinner,613,16.8,65.8,31.4,Sunday
+1079,Stuffed Bell Peppers,Dinner,585,18.5,61.6,29.4,Sunday
+1080,Seafood Paella,Dinner,559,14.0,60.4,29.0,Sunday
+1081,Fruit Salad,Snack,196,7.0,24.3,7.9,Sunday
+1082,Caprese Salad,Snack,111,4.1,11.2,5.5,Sunday
+1083,Veggie Burger,Snack,191,5.0,20.6,9.8,Sunday
+1084,Stuffed Mushrooms,Snack,255,12.1,28.3,10.4,Sunday
+1085,Rice and Beans,Snack,196,8.6,23.4,7.6,Sunday
+1086,Fruit Parfait,Snack,124,5.6,14.9,4.7,Sunday
+1087,Avocado Sushi,Snack,128,5.1,12.9,6.2,Sunday
+1088,Tofu Scramble,Snack,277,7.4,30.0,14.2,Sunday
+1089,Prawn Stir Fry,Snack,108,2.8,11.0,5.9,Sunday
+1090,Tomato Soup,Snack,207,7.3,23.8,9.2,Sunday
+1091,Fruit Salad,Snack,236,9.4,26.2,10.4,Sunday
+1092,Caprese Salad,Snack,257,11.6,27.9,11.0,Sunday
+1093,Veggie Burger,Snack,234,8.2,27.3,10.2,Sunday
+1094,Stuffed Mushrooms,Snack,261,7.8,31.0,11.8,Sunday
+1095,Rice and Beans,Snack,119,5.7,13.2,4.8,Sunday
+1096,Fruit Parfait,Snack,106,3.1,12.7,4.8,Sunday
+1097,Avocado Sushi,Snack,147,5.3,15.1,7.3,Sunday
+1098,Tofu Scramble,Snack,182,7.8,22.6,6.7,Sunday
+1099,Prawn Stir Fry,Snack,209,5.4,22.1,11.0,Sunday
+1100,Tomato Soup,Snack,184,8.6,20.8,7.4,Sunday
+1101,Fruit Salad,Snack,287,9.8,34.7,12.1,Sunday
+1102,Caprese Salad,Snack,176,5.0,19.6,8.6,Sunday
+1103,Veggie Burger,Snack,173,5.9,17.9,8.6,Sunday
+1104,Stuffed Mushrooms,Snack,263,12.8,26.6,11.7,Sunday
+1105,Rice and Beans,Snack,296,12.4,33.5,12.5,Sunday
+1106,Fruit Parfait,Snack,197,5.9,21.9,9.5,Sunday
+1107,Avocado Sushi,Snack,212,8.8,24.5,8.8,Sunday
+1108,Tofu Scramble,Snack,250,7.4,27.6,12.2,Sunday
+1109,Prawn Stir Fry,Snack,273,7.7,29.2,13.9,Sunday
+1110,Tomato Soup,Snack,119,4.0,13.1,5.6,Sunday
+1111,Fruit Salad,Snack,238,10.2,24.0,11.2,Sunday
+1112,Caprese Salad,Snack,257,11.9,29.3,10.2,Sunday
+1113,Veggie Burger,Snack,187,9.1,21.1,7.4,Sunday
+1114,Stuffed Mushrooms,Snack,106,2.7,13.1,4.8,Sunday
+1115,Rice and Beans,Snack,129,3.9,14.4,6.2,Sunday
+1116,Fruit Parfait,Snack,290,14.4,30.7,12.2,Sunday
+1117,Avocado Sushi,Snack,185,9.0,19.2,8.0,Sunday
+1118,Tofu Scramble,Snack,242,7.1,28.8,10.9,Sunday
+1119,Prawn Stir Fry,Snack,119,4.4,12.1,5.9,Sunday
+1120,Tomato Soup,Snack,127,3.3,12.8,7.0,Sunday
